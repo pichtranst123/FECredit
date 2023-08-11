@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plant</title>
+      <!-- css -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/fontawesome/css/all.min.css" rel="stylesheet">
+	<link href="js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="js/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link href="css/Style.css" rel="stylesheet">
+	
+	
+	  
+	  <!--  JavaScript --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+	<script src="https://unpkg.com/feather-icons"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+	<script>
+      var searchInput = document.getElementById("searchInput");
+    var productDetails = document.querySelectorAll(".chuatatca");
+
+    searchInput.addEventListener("keyup", function() {
+        var filter = searchInput.value.toLowerCase();
+
+        productDetails.forEach(function(detail) {
+            var detailText = detail.textContent.toLowerCase();
+            if (detailText.indexOf(filter) > -1) {
+                detail.style.display = "block";
+            } else {
+                detail.style.display = "none";
+            }
+        });
+    });
+		</script>
+  </head>
+	
+ 
+  <body ng-controller="MainController">
+
+	
+<!----------------------- Menu Mobie -------------------------->
+	
+<div class="navimobile_block d-block d-md-none">
+		<div class="container-fluid" id="bgcontentnavimobie">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 menucuanaviobiene">
+						<ul>
+							<li style="border-top: none;"><a href="Nghia_aboutus.html"><h3>About Us</h3></a></li>
+
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingbonbon">
+								  <h3 class="panel-title">
+								  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsebonbon" aria-expanded="true" aria-controls="collapsebonbon">
+									Headphone
+								  </a>
+								</h3>
+								</div>
+								<div id="collapsebonbon" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingbonbon">
+								  <div class="panel-body muclucheadphone">
+									<ul>
+										<li>
+											<a href="Huy_products.html">Wireless Headphone</a>
+										</li>
+										<li>
+											<a href="Huy_products.html">In-Ear Headphones</a>
+										</li>
+										<span  class="bocaiboderdi">
+										<li>
+											<a href="Huy_products.html">True Wireless </a>
+										</li>
+									</span>
+									</ul>
+								  </div>
+								</div>
+							  </div>
+							
+							<li><a href="Huy_blogs.html"><h3>Blog</h3></a></li>
+							<li><a href="Nghia_contact.html"><h3>contact</h3></a></li>	
+							
+								<li style="border: none; border-bottom: 1px solid #fff;"><a href="" data-toggle="modal" data-target="#myModal"><h3>User</h3></a></li>					
+								
+						</ul>
+						
+					
+							
+							
+						
+						
+					</div>
+				</div> <!--row-->
+			</div> <!--container-->
+		  </div> <!--bgcontentnavimobie-->
+		  
+	
+</div> <!--navimobile_block-->
+
+
+
+<!------------------------------------- NAVI ------------------------------------->
+<div class="container-fluid d-none d-md-block" id="bgnavi">
+		  <div class="container">
+			  <div class="row">
+				  
+				  <div class="col-xl-2
+							  col-lg-2
+							  col-md-2
+							  col-sm-2
+							  col-2 d-none d-md-block" id="logodt">
+					  			<a href="#bgbannerdetam"><img src="imgs/logo/logo_white.png" class="img-fluid"></a>
+				  </div> <!--logo-->
+
+				  <div class="col-xl-6 offset-xl-1
+							  col-lg-6	offset-lg-1
+							  col-md-7 offset-md-0 d-none d-md-block" id="menu">
+							  <ul class="nav">
+								<li class="nav-item">
+								  <a class="nav-link" href="Nghia_aboutus.html">About Us</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link n-linkheadphone">Plants</a>
+								</li>
+								
+								<li class="nav-item">
+								  <a class="nav-link" href="#gotoblogs">Blog</a>
+								</li>
+								
+								<li class="nav-item">
+									<a class="nav-link" href="Nghia_contact.html">Contact</a>
+								  </li>
+							  </ul>
+							</div> <!--MENU-->
+
+				  <div class="col-xl-3 offset-xl-0
+							  col-lg-3 offset-lg-0
+							  col-md-3 d-none d-md-block" id="iconnavi">
+							  <div class="diviconnaviitemblockkkk">
+							 <div class="iconnaviitem_block">
+								<a class="iconnaviitem_a iconnaviitem_asearch">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+									<input class="Navisearchinput" type="text" id="searchInput" placeholder="Search Product">
+								</a>
+
+							</div>
+							 <div class="iconnaviitem_block sokeo canlaiuser">
+								<a href="" class="iconnaviitem_a" data-toggle="modal" data-target="#myModal">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+								</a>
+								
+							</div>
+							 <div class="iconnaviitem_block sokeo">
+								<a href="Ngan_cart.html" class="iconnaviitem_a"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></div>
+							</div>
+							</div><!--iconnavi-->
+				  
+			  </div><!--row-->
+			  
+		  </div><!--container-->
+
+</div><!--bgnavi-->
+
+
+
+ <!--------------------==================== M O D A L S====================------------------------>
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+		
+			  <div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 d-none d-lg-block bgrsigninup">	
+						<div class="row bgrsigninup_block">
+		
+		
+							<!-------------- SIGN IN --------------->
+							<div class="col-6">
+								<div class="bgrrrrrr">
+									<h2 style="margin-bottom: 30px;">Sign In</h2>
+								<div class="row justify-content-center">
+									<div class="col-11 signinn">
+										<input type="value" required="" class="Signinchecknull">
+										<label class="label">
+											<span style="transition-delay:0ms;">U</span><span style="transition-delay:50ms">s</span><span style="transition-delay:100ms">e</span><span style="transition-delay:150ms">r</span>&nbsp;<span style="transition-delay:200ms">N</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">m</span><span style="transition-delay:350ms">e</span>
+										</label>
+									</div>
+								</div>
+							
+								<div class="row justify-content-center">
+									<div class="col-11 signinn">
+										<input type="password" required="" class="input02 Signinchecknull">
+								<label class="label label02">
+									<span style="transition-delay:0ms">P</span><span style="transition-delay:50ms">a</span><span style="transition-delay:100ms">s</span><span style="transition-delay:150ms">s</span><span style="transition-delay:200ms">w</span><span style="transition-delay:250ms">o</span><span style="transition-delay:300ms">r</span><span style="transition-delay:350ms">d</span>
+								</label>
+								<p class="signinMessgage"></p>
+								<p class="forgotpassword">Forgot your password?</p>
+									</div>
+								</div>	
+		
+								
+								<div class="row justify-content-center">
+									<div class="col-11 contentsninupp">
+										<div class="custom-btnhai btn-hai signinbtnhaha_haha" style="margin-top: 0px;">Sign In</div>
+										<p><span style="color: #000;">Or continue</span> &nbsp;with</p>
+										<ul>
+											<li><a href=""><i class="fa-brands fa-google"></i></a></li>&nbsp;&nbsp;&nbsp;
+											<li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>&nbsp;&nbsp;&nbsp;
+											<li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+										</ul>
+										
+									</div>
+								</div>
+		
+		
+								</div>
+							</div>
+		
+								<!-------------- SIGN UP --------------->
+							<div class="col-6">
+								<div class="bgrrrrrr">
+									<h2 style="margin-bottom: 30px;">Sign Up</h2>
+								<div class="row justify-content-center">
+									<div class="col-11 signinn">
+										<input type="value" required="" class="signupcheckull">
+										<label class="label">
+											<span style="transition-delay:0ms">U</span><span style="transition-delay:50ms">s</span><span style="transition-delay:100ms">e</span><span style="transition-delay:150ms">r</span>&nbsp;<span style="transition-delay:200ms">N</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">m</span><span style="transition-delay:350ms">e</span>
+										</label>
+									</div>
+								</div>
+								<div class="row justify-content-center">
+									<div class="col-11 signinn">
+										<input type="value" required="" class="input02 signupcheckull">
+								<label class="label label02">
+									<span style="transition-delay:0ms">E</span><span style="transition-delay:50ms">m</span><span style="transition-delay:100ms">a</span><span style="transition-delay:150ms">i</span><span style="transition-delay:200ms">l</span>	
+								</label>
+									</div>
+								</div>	
+								<div class="row justify-content-center">
+									<div class="col-11 signinn">
+										<input type="password"  required="" class="input02 signupcheckull">
+								<label class="label label02">
+									<span style="transition-delay:0ms">P</span><span style="transition-delay:50ms">a</span><span style="transition-delay:100ms">s</span><span style="transition-delay:150ms">s</span><span style="transition-delay:200ms">w</span><span style="transition-delay:250ms">o</span><span style="transition-delay:300ms">r</span><span style="transition-delay:350ms">d</span>
+								</label>
+									</div>
+								</div>
+								<div class="row justify-content-center">
+									<div class="col-11 signinn">
+										<input type="password" required="" class="input02 signupcheckull">
+								<label class="label label02">
+									<span style="transition-delay:0ms">R</span><span style="transition-delay:50ms">e</span><span style="transition-delay:100ms">p</span><span style="transition-delay:150ms">e</span><span style="transition-delay:200ms">a</span><span style="transition-delay:250ms">t</span>&nbsp;<span style="transition-delay:300ms">P</span><span style="transition-delay:350ms">a</span><span style="transition-delay:400ms">s</span><span style="transition-delay:450ms">s</span><span style="transition-delay:500ms">w</span><span style="transition-delay:550ms">o</span><span style="transition-delay:600ms">r</span><span style="transition-delay:650ms">d</span>
+								</label>
+								<p class="signupMessage"></p>
+									</div>
+								
+								</div>
+								
+								<div class="row justify-content-center">
+									<div class="col-11 contentsninupp">
+										
+										<div class="custom-btnhai btn-hai Signupchecknull">Sign Up</div>
+										<p><span style="color: #000;">Or continue</span> &nbsp;with</p>
+										<ul>
+											<li><a href=""><i class="fa-brands fa-google"></i></a></li>&nbsp;&nbsp;&nbsp;
+											<li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>&nbsp;&nbsp;&nbsp;
+											<li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+										</ul>
+										
+									</div>
+								</div>
+									
+								</div>				
+							</div>
+		
+		
+							<div class="col-6 bolo">
+								<div class="row justify-content-center">
+									<div class="col-9">
+										<div class="content_bolo">
+											<h2>Welcome Back!</h2>
+											<p>To keep connected with us please login with your personal info</p>
+											<div class="custom-btnhai btn-hai login_glass">
+												<h2>Sign In</h2>
+											</div>
+										</div>
+									</div>
+									
+
+								</div>
+
+						
+								
+								
+							</div>
+							<div class="col-6 bolofake">
+								
+							</div>
+							
+		
+		
+						</div>
+					</div>
+				</div>
+			  </div>
+
+
+			  <div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-10
+								col-sm-10
+								col-5 d-lg-none bgrsigninupmobie">
+
+								<div class="col-11 bgrrrrrrmobie content_signup">
+									<h2 style="margin-bottom: 30px;">Sign Up</h2>
+									<div class="row justify-content-center">
+										<div class="col-11 signinn">
+											<input type="value" required="" class="signupcheckullmobile">
+											<label class="label2">
+												<span style="transition-delay:0ms">U</span><span style="transition-delay:50ms">s</span><span style="transition-delay:100ms">e</span><span style="transition-delay:150ms">r</span>&nbsp;<span style="transition-delay:200ms">N</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">m</span><span style="transition-delay:350ms">e</span>
+											</label>
+										</div>
+									</div>
+									<div class="row justify-content-center">
+										<div class="col-11 signinn">
+											<input type="value" required="" class="input02 signupcheckullmobile">
+									<label class="label2 label02">
+										<span style="transition-delay:0ms">E</span><span style="transition-delay:50ms">m</span><span style="transition-delay:100ms">a</span><span style="transition-delay:150ms">i</span><span style="transition-delay:200ms">l</span>
+									</label>
+										</div>
+									</div>	
+									<div class="row justify-content-center">
+										<div class="col-11 signinn">
+											<input type="password" required="" class="input02 signupcheckullmobile">
+									<label class="label label02">
+										<span style="transition-delay:0ms">P</span><span style="transition-delay:50ms">a</span><span style="transition-delay:100ms">s</span><span style="transition-delay:150ms">s</span><span style="transition-delay:200ms">w</span><span style="transition-delay:250ms">o</span><span style="transition-delay:300ms">r</span><span style="transition-delay:350ms">d</span>
+									</label>
+										</div>
+										
+									</div>
+									<div class="row justify-content-center">
+										<div class="col-11 signinn">
+											<input type="password" required="" class="input02 signupcheckullmobile">
+									<label class="label label02">
+										<span style="transition-delay:0ms">R</span><span style="transition-delay:50ms">e</span><span style="transition-delay:100ms">p</span><span style="transition-delay:150ms">e</span><span style="transition-delay:200ms">a</span><span style="transition-delay:250ms">t</span>&nbsp;<span style="transition-delay:300ms">P</span><span style="transition-delay:350ms">a</span><span style="transition-delay:350ms">s</span><span style="transition-delay:350ms">s</span><span style="transition-delay:350ms">w</span><span style="transition-delay:350ms">o</span><span style="transition-delay:350ms">r</span><span style="transition-delay:350ms">d</span>
+									</label>
+									<p class="signupMessagemobile"></p>
+										</div>
+									</div>
+			
+									<div class="row justify-content-center">
+										<div class="col-11 contentsninupp">
+									
+											<div class="canchochuan">
+												<div class="btnmobiesign Signupchecknullmobile"><a>Sign Up</a></div>
+												</div>
+												<p>Or continue with</p>
+											<ul style="margin-bottom: 0px;">
+												<li><a href=""><i class="fa-brands fa-google"></i></a></li>
+												<li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+												<li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+											</ul>
+											<p style="color: #000; margin-top: 15px;">Already have an account <span class="btnchangetosignin">&nbsp;Sign In</span></p>
+										</div>
+									</div>
+										
+									</div>
+									
+									<div class="col-11 bgrrrrrrmobie content_signin">
+										<h2 style="margin-bottom: 30px;">Sign In</h2>
+										<div class="row justify-content-center">
+											<div class="col-11 signinn">
+												<input type="value" required="">
+												<label class="label2">
+													<span style="transition-delay:0ms">U</span><span style="transition-delay:50ms">s</span><span style="transition-delay:100ms">e</span><span style="transition-delay:150ms">r</span>&nbsp;<span style="transition-delay:200ms">N</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">m</span><span style="transition-delay:350ms">e</span>
+												</label>
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div class="col-11 signinn">
+												<input type="password" required="" class="input02">
+										<label class="label2 label02">
+											<span style="transition-delay:0ms">P</span><span style="transition-delay:50ms">a</span><span style="transition-delay:100ms">s</span><span style="transition-delay:150ms">s</span><span style="transition-delay:200ms">w</span><span style="transition-delay:250ms">o</span><span style="transition-delay:300ms">r</span><span style="transition-delay:350ms">d</span>
+										</label>
+										<p class="signinMessageMb"></p>
+											</div>
+											<p class="forgotpassword">Forgot your password?</p>
+										</div>	
+										
+				
+										<div class="row justify-content-center">
+											<div class="col-11 contentsninupp">
+												<div class="canchochuan">
+												<div class="btnmobiesign Signinchecknullmobile">Sign In</div>
+												</div>
+												<p>Or continue with</p>
+												<ul style="margin-bottom: 0px;">
+													<li><a href=""><i class="fa-brands fa-google"></i></a></li>
+													<li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+													<li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+												</ul>
+												<p style="color: #000; margin-top: px;">Don't have an account<span class="btnchangetosignup"> &nbsp;Sign Up</span></p>
+											</div>
+										</div>
+										</div>	
+						</div>
+					</div>
+				</div>
+        </div>
+      </div>
+    </div>
+  </div>	  
+<!----------------------------------------do rop dao--------------------------------------------->
+
+<div class="container bgdoropdao">
+					<div class="doropdao">
+						<ul>
+							<li>
+								<a href="#background_onearheadphone">Upright Bonsai</a>
+							</li>
+							<li>
+								<a href="#background_inearheadphone">Hanging Bonsai</a>
+							</li>
+							<li>
+								<a href="#background_truewireless">Potted Plants</a>
+							</li>
+						</ul>
+					</div>
+</div>
+
+
+<!------------------------------------- NAVI MOBIE ------------------------------------->
+	 
+<div class="container-fluid d-block d-md-none" id="bgnavimobie">
+		  <div class="container">
+			  <div class="row">
+				  
+				  	<div class="col-sm-2
+							  col-2" id="iconbar">
+							  <div id="menuToggle">
+								<input id="checkbox" type="checkbox">
+								<label class="toggle" for="checkbox">
+								  <div class="bar bar--top"></div>
+								  <div class="bar bar--middle"></div>
+								  <div class="bar bar--bottom"></div>
+								</label>
+							  </div> <!--menuToggle-->
+					</div><!--iconbar-->
+
+				 	 <div class="col-sm-4 offset-sm-2
+							  col-4 offset-2" id="logomobie">
+							<a href="An_home.html"><img src="imgs/logo/logo_white.png" class="img-fluid"></a>
+					</div><!--logomobie-->
+				 	<div class="col-sm-3 offset-sm-1
+							  col-3 offset-1" id="iconnavimobie">
+
+							  <div class="tongiconbombie">
+							  <div class="iconnaviitem_blockkkk">
+								<a class="iconnaviitem_aaa iconnaviitem_asearchhhh">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+
+								</a>
+								
+							</div>
+							 <div class="yconuser">
+								<a href="Ngan_cart.html" class="iconnaviitem_a">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart">
+									<circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+									</svg>
+								</a>
+							</div>
+						</div>	
+	
+					</div><!--iconsearchuser-->
+				  
+			  </div><!--row-->
+		  </div><!--container-->
+</div><!--bgnavi-->
+	  
+
+<div class="navimobliesearchsearchseachblock">
+		<div class="container-fluid ">
+			<div class="container">
+				<div class="row">
+					<div class="col-9"></div>
+			<div class="col-3 navimobile_Xsreachblock">
+				<div class="divdiv">
+			<div class=" iconnaviitem_blockkkkkkk">
+				
+				<a class="iconnaviitem_aaabbb">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+				</a>
+				<input class="navimobilesearhciputttt" type="text" placeholder="Search...">
+			</div>
+			<div class="navimobliesearchblock_X">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+			</div>
+		</div>
+		</div>
+
+				</div>
+			</div>
+			
+		</div>
+</div>
+
+
+
+
+
+
+	
+
+			<!------------------------------------- BANNER 01 ----------------------------------------------->
+	  	<div class="container-fluid" id="bgbannerdetam">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 content_banner_001_block">
+						<div class="content_banner_001">
+						<div class="tieudebanner_01">
+							<h1>Tropical Plants</h1>
+						</div>
+
+						<!--4 nut tron -->
+						<div class="nuttronchuyentrang">
+							<ul>
+								<li class="colorbn01 vongtron_01"></li>
+								<li class="colorbn01 vongtron_01"></li>
+								<li class="colorbn01 vongtron_01"></li>
+								<li class="colorbn01 vongtron_01"></li>
+							</ul>
+						</div>
+					</div>
+				
+					
+					<div class="content_banner_001_blockhasitem">
+							<div class="content_banner_001_item ">
+								<div class="contentbanner1_itemrelavetive">
+									<div class="content1item0202_tammang banner1item2_tammang"></div>
+									<div class="content1item0101 content1item0101_01">
+										<div class="content1_staranimation">
+										<img src="imgs/imgbanner/banner_01/a6-removebg-preview.png" alt="" class="content1img01">
+										</div>
+									</div> 
+									<div class="content1item0101 content1item0101_02">
+										<div class="content1_staranimation">
+										<img src="imgs/imgbanner/banner_01/a7-removebg-preview.png" alt="" class="content1img02">
+										</div>
+									</div> 
+									<div class="content1item0101 content1item0101_03">
+										<div class="content1_staranimation3">
+											<img src="imgs/imgbanner/banner_01/a10-removebg-preview.png" alt="" class="content1img03">
+										</div>
+									</div> 
+								</div>
+							</div>
+							<div class="content_banner_001_item ">
+								<div class="contentbanner1_itemrelavetive">
+									<div class="content1item0202_tammang banner1item2_tammang"></div>
+									<div class="contentitem0202_imgblock">
+										<img src="imgs/imgbanner/banner_01/SeedPack-lettucemix_362x362.png" alt="" class="contentitem0202_img01">
+										<img src="imgs/imgbanner/banner_01/images.png" alt="" class="contentitem0202_img02">
+									</div>
+								</div>
+							</div>
+							<div class="content_banner_001_item  ">
+								<div class="contentbanner1_itemrelavetive">
+									<div class="content1item0202_tammang banner1item2_tammang">
+										<div class="contentitem0202_imgblock2">
+											
+										<img src="imgs/imgbanner/banner_01/My project (13).png" class="contentitem0202_img04">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content_banner_001_item  ">
+								<div class="contentbanner1_itemrelavetive">
+									<div class="content1item0202_tammang banner1item2_tammang">
+										<div class="contentitem0202_imgblock2">
+											
+											<img src="imgs/imgbanner/banner_01/My project (25).png" class="contentitem0202_img04">
+										</div>
+									</div>
+									
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+			<!------------------------------------- On-Ear Headphones ----------------------------------------------->
+<div id="productdetails" class="showproductmodal" ng-click="closeproductmodal()">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12
+					  col-lg-12 d-none d-lg-block" id="bgproductdetail">
+			  <div class="row">
+				  <div class="col-xl-5 
+							  col-lg-5 
+							  d-none d-lg-block productdetailthongtinmua">
+					  
+					  <h2></h2>
+					  <div class="row">
+						  <div class="col-xl-12
+									  col-lg-12" id="starcontact">
+							  <ul>
+								  <li><i class="fa-solid fa-star"></i></li>
+								  <li><i class="fa-solid fa-star"></i></li>
+								  <li><i class="fa-solid fa-star"></i></li>
+								  <li><i class="fa-solid fa-star"></i></li>
+								  <li><i class="fa-solid fa-star"></i></li>
+							  </ul>
+						  </div>
+					  </div><!--row-->
+					  <p>Detail:</p>
+					  <div class="col-xl-12
+								  col-lg-12" id="tinhnangsp">
+						  <ul>
+						  <li><p></p></li>
+						  </ul>
+					  </div>
+					  <p id="giaproductdetail"></p>
+						 <div class="col-xl-12
+								  col-lg-12" id="quanlityproductdetail">
+						  <p>Quantity:</p>
+						  <div class="number-spinner">
+							<span class="ns-btn">
+								<a data-dir="dwn" ng-click="handleClick($event, 'decrement')"><span class="icon-minus"></span></a>
+							</span>
+							<input type="text" class="pl-ns-value" value="1" maxlength="2">
+							<span class="ns-btn">
+								<a data-dir="up" ng-click="handleClick($event, 'increment')"><span class="icon-plus"></span></a>
+							</span>
+						</div>
+					  </div>
+					  <div class="row">
+						  <div class="col-xl-10
+									  col-lg-12">
+							  <div class="d-flex justify-content-between" id="nutmuahangdetail">
+							  <div class="custom-btnhai btn-hai">Buy now</div>
+							  <div class="custom-btnba"><p>Add To Cart</p></div>
+							  </div>
+						  </div>
+					  </div><!--row-->
+				  </div><!--productdetailthongtinmua-->
+				  <div class="col-xl-7
+							  col-lg-7
+							  d-none d-lg-block productdetailimgs">
+					  <div class="row">
+						  <div class="col-xl-12
+									  col-lg-12 productdetailimgbig">
+							  <img class="img-fluid imgchoosenproduct">
+						  </div><!--productdetailimgbig-->
+						  
+					  </div><!--row-->
+				  </div><!--productdetailimgs-->
+			  </div><!--row2-->
+			
+		   </div><!--bgproductdetail-->
+		</div><!--row-->
+	</div><!--container-->
+	<div class="container">
+		<div class="row justify-content-center">
+		  <div class="col-md-11
+					  col-sm-11
+					  col-11 d-lg-none" id="bgproductdetailmini">
+			  <div class="row">
+				  <div class="col-12 productdetailimgbig">
+					  <img class="img-fluid imgchoosenproductmobile">
+				  </div><!--productdetailimgbig-->
+			  </div><!--row-->
+			  <div class="container">
+				<div class="row justify-content-center">
+				  <div class="col-11 d-lg-none productdetailthongtinmuanho">
+						  <h2></h2>
+						  <div class="row">
+							  <div class="col-xl-11 
+										  col-lg-11 d-lg-none" id="starcontactnho">
+								  <ul>
+									  <li><i class="fa-solid fa-star"></i></li>
+									  <li><i class="fa-solid fa-star"></i></li>
+									  <li><i class="fa-solid fa-star"></i></li>
+									  <li><i class="fa-solid fa-star"></i></li>
+									  <li><i class="fa-solid fa-star"></i></li>
+								  </ul>
+							  </div>
+						  </div><!--row-->
+						  <p class="productdetailmobile">Detail:</p>
+						  <div class="col-12 d-lg-none" id="tinhnangspnho">
+							  <ul>
+							  <li><p>Active noise cancelling</p></li>
+							  </ul>
+						  </div>
+						  <p id="giaproductdetailnho">$239.99</p>
+						  
+							 <div class="col-11 d-lg-none" id="quanlityproductdetailnho">
+							  <p>Quantity:</p>
+							  <div class="number-spinner">
+								<span class="ns-btn">
+									<a data-dir="dwn" ng-click="handleClick($event, 'decrement')"><span class="icon-minus"></span></a>
+								</span>
+								<input type="text" class="pl-ns-value" value="1" maxlength="2">
+								<span class="ns-btn">
+									<a data-dir="up" ng-click="handleClick($event, 'increment')"><span class="icon-plus"></span></a>
+								</span>
+							</div>
+						  </div>
+						  <div class="row justify-content-center">
+							  <div class="col-12 d-lg-none buynowattocactmobie">
+								  
+								  <div class="custom-btnhai btn-hai buynowattocactmobie_btn">Buy now</div>
+								  <div class="custom-btnba"><p>Add To Cart</p></div>
+								  
+							  </div>
+						  </div><!--row-->
+				  </div>
+			  </div><!--row-->
+		  </div><!--container-->
+
+		  </div><!--bgproductdetailmini-->
+	  </div><!--row-->
+  </div><!--container-->
+  
+</div>
+
+
+
+
+
+			<div class="container-fluid" id="background_onearheadphone">
+				<div class="container">
+
+
+
+					<div class="row">
+						<div class="col-12 pagename On-Ear">
+							<h1>Upright Bonsai</h1>
+						</div> <!----pagename 01---->
+					</div><!---Row page Name---->
+
+
+
+					<!------------  P r o d u c t ---------->
+
+					<div class="row justify-content-center">
+						<div class="col-xl-12
+									col-lg-12
+									col-md-12
+									col-sm-11
+									col-9 owl-carousel owlcuaproduct">
+
+								<!--________   01   _______-->
+									<div class="chuatatca" ng-repeat="plant in plants | filter: { type: 'Hanging' }" ng-click="showbuymodal(plant)">
+										<div class="anhsanpham">
+											<img class="anhsanpham_color anhsanphamin" src="imgs/Plant-images/{{plant.img}}">
+										</div><!----anhsanpham---->
+										
+									<div class="tammanchekhuat">
+										<div class="contentprducts">	
+											
+											<a><h5>{{plant.title}}</h5></a>
+											<p>${{plant.price}}</p>
+										</div><!----contentprducts---->
+
+										
+										<div class="addtocardxoxuong">
+											<a  href="">
+												<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart">
+													<circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle>
+													<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+												</svg>
+											</a>
+											<a  href="">
+												<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+											</a>
+											<a href="">
+												<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2">
+													<circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle>
+													<line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+												</svg>
+											</a>							
+										</div>
+
+									</div><!----tammanchekhuat---->
+								</div>
+								
+	
+
+						</div> <!----owlcuaproduct---->
+					</div> <!----Row cuar product---->
+
+
+
+
+
+				</div> <!----container---->
+			</div> <!---background_onearheadphone---->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!------------------------------------- Banner 02 ----------------------------------------------->
+
+	  		<div class="container-fluid" id="banner234">
+				<div class="container">
+					
+					<div class="row justify-content-center">
+						<div class="col-xl-5 offset-xl-1
+									col-lg-5 offset-lg-1
+									col-md-9 offset-md-1
+									col-sm-10
+									col-10" id="magicheadphone">
+									<h2>Air Plant</h2>
+									
+									<span class="tainghe1"><img src="imgs/Plant-images/Airplant.png" class="img-fluid"></span>
+									
+									
+									<a href="">
+										
+										<p class="custom-btnhaii btn-hai btn-2-location">Shop Now</p>
+									</a>
+									<div class="glassmagicmomoaoao_block">
+										
+										<div class="glassmagicmomoaoao">
+											<p>New Arrival</p>
+										</div>
+									</div>
+									
+									
+									<span class="tainghe2"><img src="imgs/Plant-images/My project (21).png" class="img-fluid"></span>
+								</div> <!--magicheadphone-->
+
+
+
+
+								<div class="col-xl-5 offset-xl-1
+											col-lg-5 offset-lg-1
+											col-md-9 offset-md-2
+											col-sm-10 offset-sm-0
+											col-10 offset-2" id="headphonedesign">
+								
+								
+						<div class="glassne glassne99">
+										<img src="imgs/Plant-images/My project (15).png" class="img-fluid taingheotren">
+										
+										<div class="headphonetrangoverflow">
+										<div class="headphonetrangmomoaoao"></div>
+										<div class="headphonetrang_block">
+											<h2>Hanging Plant Featured</h2>
+											<div class="headphonetrang_content">
+												Hanging plants are a great <br/> way to add greenery and life to any space. They can be used <br/> to fill empty corners, add a <br/> splash of color, or create a focal point.Hanging plants are also relatively low-maintenance, making them a great option for busy people or those who are new to gardening.<a class="custom-btnhai btn-hai">Shop Now</a>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+					</div> <!--row-->
+				</div> <!--container-->
+			</div> <!--banner234-->
+
+
+			<div class="container-fluid" id="bgbannersobaane">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-12 contentbannersoba">
+						<h1>All Kind Of Delightful Plants</h1>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-12 ritmorebannersoba">
+							<a href="" class="cta" style="text-decoration: none; color: #fff;">
+								<span class="hover-underline-animation"> See more </span>
+								<i class="fa-solid fa-arrow-right-long"></i>
+							</a>	
+						</div>
+					</div>
+
+					
+
+				</div>
+			</div>
+
+
+
+
+
+
+
+			<!------------------------------------- In-Ear Headphones ----------------------------------------------->
+
+
+			<div class="container-fluid" id="background_inearheadphone">
+				<div class="container">
+
+
+
+					<div class="row">
+						<div class="col-12 pagename inear">
+							<h1>Hanging Bonsai</h1>
+						</div> <!----pagename 01---->
+					</div><!---Row page Name---->
+
+
+
+					<!------------  P r o d u c t ---------->
+
+					<div class="row justify-content-center">
+						<div class="col-xl-12
+									col-lg-12
+									col-md-12
+									col-sm-11
+									col-9 owl-carousel owlcuaproduct">
+
+								<!--________   01   _______-->
+									
+								<div class="chuatatca" ng-repeat="plant in plants | filter: { type: 'outdoor'}" ng-click="showbuymodal(plant)">
+									<div class="anhsanpham">
+										<img class="anhsanpham_color anhsanphamin" src="imgs/Plant-images/{{plant.img}}">
+									</div><!----anhsanpham---->
+									
+								<div class="tammanchekhuat">
+									<div class="contentprducts">	
+										
+										<a><h5>{{plant.title}}</h5></a>
+										<p>${{plant.price}}</p>
+									</div><!----contentprducts---->
+
+									
+									<div class="addtocardxoxuong">
+										<a  href="">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart">
+												<circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle>
+												<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+											</svg>
+										</a>
+										<a  href="">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+										</a>
+										<a href="">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2">
+												<circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle>
+												<line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+											</svg>
+										</a>							
+									</div>
+
+								</div><!----tammanchekhuat---->
+							</div>
+							
+
+								
+					
+
+
+								
+
+						</div> <!----owlcuaproduct---->
+					</div> <!----Row cuar product---->
+
+
+
+
+
+				</div> <!----container---->
+			</div> <!---background_onearheadphone---->
+
+
+
+			<!------------------------------------- Banner 03 ----------------------------------------------->
+
+
+			<div class="container-fluid" id="backroubanner03">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 contentbannersoba">
+							<h1>Find Your Perfect Plant</h1>
+							</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!------------------------------------- True Wireless ----------------------------------------------->
+
+			<div class="container-fluid" id="background_truewireless">
+				<div class="container">
+
+
+
+					<div class="row">
+						<div class="col-12 pagename truewire">
+							<h1>Potted Plants</h1>
+						</div> <!----pagename 01---->
+					</div><!---Row page Name---->
+
+
+
+					<!------------  P r o d u c t ---------->
+
+					<div class="row justify-content-center">
+						<div class="col-xl-12
+									col-lg-12
+									col-md-12
+									col-sm-11
+									col-9 owl-carousel owlcuaproduct">
+
+								<!--________   01   _______-->
+									
+								<div class="chuatatca" ng-repeat="plant in plants | filter: { type: 'Indoor' }" ng-click="showbuymodal(plant)">
+									<div class="anhsanpham">
+										<img class="anhsanpham_color anhsanphamin" src="imgs/Plant-images/{{plant.img}}">
+									</div><!----anhsanpham---->
+									
+								<div class="tammanchekhuat">
+									<div class="contentprducts">	
+										
+										<a><h5>{{plant.title}}</h5></a>
+										<p>${{plant.price}}</p>
+									</div><!----contentprducts---->
+
+									
+									<div class="addtocardxoxuong">
+										<a  href="">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart">
+												<circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle>
+												<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+											</svg>
+										</a>
+										<a  href="">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+										</a>
+										<a href="">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2">
+												<circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle>
+												<line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+											</svg>
+										</a>							
+									</div>
+
+								</div><!----tammanchekhuat---->
+							</div>
+							
+								
+
+						</div> <!----owlcuaproduct---->
+					</div> <!----Row cuar product---->
+
+
+
+
+
+				</div> <!----container---->
+			</div> <!---background_onearheadphone---->
+
+
+
+
+			<!------------------------------------- Our Clients ----------------------------------------------->
+
+
+			<div class="container ">
+				<div class="row">
+					<div class="col-12 pagename pagenameourclientss">
+						<h1>Our Clients</h1>
+					</div> <!----pagename 01---->
+				</div><!---row---->
+
+				
+					
+				
+
+				<div class="row justify-content-center feedbackrowrelative">
+					
+						<div class=" nutfeedbackblock">
+							<div class="nutcuafeedback benphai">
+								<i class="fa-solid fa-chevron-right feedbackanright"></i>
+							</div>
+							<div class="nutcuafeedback bentrai">
+								<i class="fa-solid fa-chevron-left feedbackanleft"></i>
+							</div>
+					
+						
+					</div>
+					<div class="col-12 owl-carousel-1_blackpink">
+						<div class="row justify-content-center">
+							<div class="col-sm-12
+								col-11 owl-carousel-1">
+					
+							</div> <!---->
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!------------------------------------- Our Latest Instagram ----------------------------------------------->
+
+
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-xl-4
+									col-lg-4
+									col-md-4 order-md-1
+									col-sm-12
+									col-12 order-2" id="cumbentrai">
+
+									<div class="row">
+										<div class="col-12 chiacot1">
+										<div class="col-md-12
+													col-sm-7
+													col-8 anhsomot">
+											<img src="imgs/instagram/pexels-cottonbro-studio-4503263.jpg" class="img-fluid">
+											<div class="tamneninsta">
+											<i class="fa-brands fa-instagram"></i>
+											</div>
+										</div>
+										<div class="col-md-10 offset-md-2 
+													col-sm-5
+													col-4 offset-0 anhsohai">
+											<img src="imgs/instagram/pexels-cottonbro-studio-4503735.jpg" class="img-fluid">
+											<div class="tamneninsta">
+												<i class="fa-brands fa-instagram"></i>
+												</div>
+										</div>
+									</div>
+										
+										<div class="col-md-10 offset-md-2
+													col-sm-5
+													col-4 hastagins">
+											<p>@Pulsebay</p>										
+										</div>
+										
+									</div> <!--row-->
+
+								</div> <!--cumbenphai-->
+
+								<div class="col-xl-8
+											col-lg-8
+											col-md-8 order-md-2
+											col-sm-12
+											col-12 order-1" id="cumbenphai">
+											<div class="row">
+												<div class="col-6 chiacot">
+													<div class="row">
+														<div class="col-12 anhsoba">
+															<img src="imgs/pexels-wendel-moretti-3779471.jpg" class="img-fluid">
+															<div class="tamneninsta">
+																<i class="fa-brands fa-instagram"></i>
+																</div>
+														</div>
+														<div class="col-9 offset-3 anhsobon">
+															<img src="imgs/instagram/pexels-huy-phan-3076899.jpg" class="img-fluid">
+															<div class="tamneninsta">
+																<i class="fa-brands fa-instagram"></i>
+																</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-6 chiacot">
+													<div class="row">
+														<div class="col-12 tieudeins">
+															<h1>Our Latest<br> 
+																Instagram</h1>
+														</div>
+														<div class="col-12 anhsonam">
+															<img src="imgs/instagram/pexels-tharatip-sukee-866047.jpg" class="img-fluid">
+															<div class="tamneninsta">
+																<i class="fa-brands fa-instagram"></i>
+																</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div> <!--cumbentrai-->
+					</div> <!--row-->
+				</div> <!--container-->
+
+
+
+
+
+
+			<!------------------------------------- Blogs ----------------------------------------------->
+
+
+				<div class="container" id="gotoblogs">
+					<div class="row">
+						<div class="col-12 pagename" style="margin-top: 20px;">
+							<h1>Blogs</h1>
+						</div> <!----pagename 01---->
+					</div><!---row---->
+
+					<div class="row justify-content-center">
+						<div class="col-xl-12
+									col-lg-12
+									col-md-11
+									col-sm-10
+									col-10 owl-carousel owl-car bblloogg">
+							
+									<div class="glassne" ng-repeat="blog in blogs">
+										<div class="hidenanhblog">
+											<a class="iconbloggg">
+												<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></a>
+												<img src="imgs/blogs/{{blog.urlblog}}" class="img-fluid">
+										</div>
+										<div class="contentttt">										
+										<a><h5>{{blog.title}}</h5></a>
+										<p>{{blog.day}}</p>
+										
+										<a class="cta blocc">
+											<span class="hover-underline-animation">{{blog.author}}</span>
+											
+										</a>									
+									</div> <!---contentttt---->
+								</div> <!---glassne---->
+
+
+						</div> <!---owl-carousel---->
+					</div> <!---row---->
+				</div><!---container---->
+
+ <!------------------------------------- FOOTER ------------------------------------->
+	  <div class="container-fluid" id="bgfooter">					
+		<div class="container">
+			
+			<div class="row justify-content-center">
+				<div class="col-xl-3
+							col-lg-3
+							col-md-4
+							col-sm-5
+							col-5" id="logofooter">
+					<a href="An_home.html"><img src="imgs/logo/logo_white.png" class="img-fluid"></a>
+				</div> <!--logofooter-->
+			</div> <!--row 1-->
+
+			<div class="row justify-content-center">
+				<div class="col-xl-4
+							col-lg-4
+							col-md-6
+							col-sm-8
+							col-8" id="socialmedia">
+							<a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+							<a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+							<a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+							<a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+						</div> <!--socialmedia-->
+			</div> <!--row 2-->
+
+			<div class="row justify-content-center">
+				<div class="col-xl-4
+							col-lg-5
+							col-md-8
+							col-sm-8
+							col-8" id="subscribe">
+							<p>Subscribe For Our Newsletter</p>
+							<div class="footer_sendmail_block">
+								<input type="text" placeholder="Your mail goes here...">
+								<a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></a>
+							</div> <!--footer_sendmail_block-->
+							<span class="textnamduoisubrigth">Limited warranty rights are not diminished
+								 if you do not complete and submit this registration form.</span>
+						</div> <!--subscribe-->
+							<div class="col-xl-7 offset-xl-1
+										col-lg-7 
+										col-md-10
+										col-sm-10
+										col-10 d-none d-md-block thechuacontenFT">
+										<div class="row">
+											<div class="col-4 supportnek">
+												<span>Support</span>
+												<ul>
+													<li> <a href="An_faqs.html"> FAQs</a></li>
+													<li> <a href="Nghia_recruitment.html">Recruitment</a></li>
+													<li> <a href="">Repair</a></li>
+												</ul>
+											</div> <!--supportnek-->
+											<div class="col-4 informationnek">
+												<span>Information </span>
+												<ul>
+													<li> <a href="">Delivery Method</a></li>
+													<li> <a href="">Warranty Policy</a></li>
+													<li> <a href="">Return Policy</a></li>
+												</ul>
+											</div> <!--informationnek-->
+											<div class="col-4 companynek">
+												<span>Company </span>
+												<ul>
+													<li><a href="Nghia_aboutus.html">About Us</a></li>
+													<li><a href="Huy_blogs.html">Blog</a></li>
+													<li><a href="Nghia_contact.html">Contact</a></li>
+												</ul>
+											</div> <!--companynek-->
+										</div> <!--row 03-->
+										
+						</div> <!--thechuacontenFT-->					
+			</div> <!--row 3-->
+			<div class="row">
+				<div class="col-12 d-block d-md-none bgmenumobiefooter">
+					<div class="clearfix"></div>
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+					  <div class="panel panel-default daymargin">
+						<div class="panel-heading" role="tab" id="headingOne">
+						  <h4 class="panel-title">
+						  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Support
+						  </a>
+						</h4>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						  <div class="panel-body">
+							<ul>
+								<li>
+									<a href="An_faqs.html">FAQs</a>
+								</li>
+								<li>
+									<a href="Nghia_recruitment.html">Recruitment</a>
+								</li>
+								<li>
+									<a href="">Repair</a>
+								</li>
+							</ul>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingTwo">
+						  <h4 class="panel-title">
+						  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+							Information
+						  </a>
+						</h4>
+						</div>
+						<div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+						  <div class="panel-body">
+							<ul>
+								<li>
+									<a href="Huy_products.html">Headphone</a>
+								</li>
+								<li>
+									<a href="">Warranty Policy</a>
+								</li>
+								<li>
+									<a href="">Return Policy</a>
+								</li>
+							</ul>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="panel panel-default panel-defaultt">
+						<div class="panel-heading" role="tab" id="headingThree">
+						  <h4 class="panel-title">
+						  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+							Company
+						  </a>
+						</h4>
+						</div>
+						<div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+						  <div class="panel-body">
+							<ul>
+								<li>
+									<a href="Nghia_aboutus.html">About Us</a>
+								</li>
+								<li>
+									<a href="Huy_blogs.html">Blog</a>
+								</li>
+								<li>
+									<a href="Nghia_contact.html">Contact</a>
+								</li>
+							</ul>
+						  </div>
+						</div>
+					  </div>
+
+					  
+
+					</div>
+				</div>
+			</div>
+
+			<hr class="aaaaa">
+
+			<div class="row">
+				<div class="col-12 coppyright">
+					<p>© 2023 PlantPlace. All rights reserved</p>	
+					<span>
+						<i class="fa-brands fa-cc-visa"></i>
+						<i class="fa-brands fa-cc-apple-pay"></i>
+						<i class="fa-brands fa-cc-jcb"></i>
+						<i class="fa-brands fa-cc-mastercard"></i>
+					</span>
+				</div> <!--coppyright-->
+			</div> <!--row-->
+
+		</div> <!--container-->
+	  </div> <!--bgfooter-->
+
+	  
+	  
+  </body>
+	
+  
+	
+</html>
+<script src="js/json.js"></script>
+
+
+
+
+
+
+<script src="js/loginform.js"></script>
+<script src="js/homepage.js"></script>
+<script src="js/NaviFooter.js"></script>

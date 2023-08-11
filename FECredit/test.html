@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Product Details</title>
+</head>
+<body>
+
+<input class="Navisearchinput" type="text" id="searchInput" placeholder="Search Product Details">
+
+<div id="productdetails">
+    <div class="product">Product 1 details</div>
+    <div class="product">Product 2 details</div>
+    <div class="product">Product 3 details</div>
+    <!-- Add more product details here -->
+</div>
+
+<script>
+    var searchInput = document.getElementById("searchInput");
+    var productDetails = document.querySelectorAll("#productdetails .product");
+
+    searchInput.addEventListener("keyup", function() {
+        var filter = searchInput.value.toLowerCase();
+
+        productDetails.forEach(function(detail) {
+            var detailText = detail.textContent.toLowerCase();
+            if (detailText.indexOf(filter) > -1) {
+                detail.style.display = "block";
+            } else {
+                detail.style.display = "none";
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

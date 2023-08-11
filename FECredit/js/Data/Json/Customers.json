@@ -1,0 +1,37 @@
+[{
+  "name":"John",
+  "rate":"5",
+  "img": "John.jpg",
+  "review": "Absolutely in love with this plant store! The variety of plants they offer is incredible – from lush tropicals to delicate succulents. The staff is knowledgeable and friendly, providing helpful advice on plant care. My collection has flourished since I started shopping here!",
+  "id":"1"
+  },
+  {
+  "name":"Alice",
+  "rate":"4",
+  "img": "Alice.jpg",
+  "review": "A hidden gem of a plant store! I stumbled upon this place and was amazed by their unique selection of rare and exotic plants. The owner clearly has a passion for plants and takes great care of them. I always leave with a new addition to my plant family.",
+  "id":"2"
+  },
+  {
+  "name":"Steve",
+  "rate":"5",
+  "img": "Steve.jpg",
+  "review": "Visited this plant store for the first time, and I was blown away by the ambiance and organization. It's like a plant paradise! They've got a wide range of pots and plant accessories too. Can't wait to return for more greenery.",
+  "id":"3"
+  },
+  {
+  "name":"Michael",
+  "rate":"5",
+  "img": "Michael.jpg",
+  "review": "The plant store offers a fantastic shopping experience. The layout is aesthetically pleasing, making it easy to browse through the different sections. Their commitment to sustainability is impressive – they use eco-friendly materials and even offer workshops on plant care. A must-visit for any plant lover!",
+  "id":"4"
+  },
+  {
+  "name":"Jenny",
+  "rate":"4",
+  "img": "Jenny.jpg",
+  "review": "This is my go-to plant store for all things green! The quality of their plants is unmatched, and they take the time to educate customers about each plant's needs. The staff's passion is contagious, and I always leave feeling inspired and excited to nurture my plants.",
+  "id":"5"
+  }
+  
+]

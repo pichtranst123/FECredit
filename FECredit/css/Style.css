@@ -1,0 +1,6025 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: bodyne;
+	src: url("../font/Poppins-Regular.ttf"),
+		url("../font/Poppins-Regular.eot"),
+		url("../font/Poppins-Regular.woff");
+}
+@font-face {
+	font-family: headingne;
+	src: url("../font/IvyMode-Regular.ttf"),
+		url("../font/IvyMode-Regular.eot"),
+		url("../font/IvyMode-Regular.woff");
+}
+@font-face {
+	font-family: boldne;
+	src: url("../font/Poppins-Bold.ttf"),
+		url("../font/Poppins-Bold.eot"),
+		url("../font/Poppins-Bold.woff");
+}
+@font-face {
+	font-family: mediumne;
+	src: url("../font/Poppins-Medium.ttf"),
+		url("../font/Poppins-Medium.eot"),
+		url("../font/Poppins-Medium.woff");
+}
+
+	
+	
+	h1, h2, h3, h4, h5, h6{
+	font-family: headingne;
+	letter-spacing: 1.5px;
+	text-align: center;
+	color: #ffffff;
+	padding: 0px;
+	margin: 0px;
+}
+h1{
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+html{
+	scroll-behavior: smooth
+}
+body{
+	background-image: url("../imgs/background KEELIN.png");
+	background-size: cover;
+	font-family: bodyne;
+	font-size: 16px;
+}
+
+hr{
+	border: 1px solid #fff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+}
+
+/*================ GLASS====================*/
+.glassne{
+	background: rgba( 255, 255, 255, 0.25 );
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+	padding: 0px;
+
+}
+
+
+.glassne_block{
+	position: relative;
+	
+}
+
+
+
+
+.fa-chevron-right, .fa-chevron-left{
+	transition: all ease .6s;
+}
+.fa-chevron-right:hover, .fa-chevron-left:hover{
+	scale: calc(.9);
+	color: #FAE6D8;
+	transition: all ease .2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================================ Add ressbar==========================================*/
+
+.addressbane{
+    margin-top: 50px;
+}
+.addressbane ul{
+    list-style-type: none;
+    display: flex;
+}
+.addressbane ul li{
+    margin-right: 10px;
+    color: #fff;
+}
+.addressbane ul li a{
+    text-decoration: none;
+    transition: all ease .5s;
+
+}
+
+
+
+
+
+
+
+
+/*===================sign in up=========================*/
+
+.content_bolo{
+	display: inline;
+	justify-content: center;
+
+}
+.content_bolo h2{
+
+
+}
+.content_bolo p{
+	color: #fff;
+	text-align: center;
+	
+
+}
+
+.signinMessageMb{
+	margin-top: 30px;
+	color: #bd1010;
+}
+.Signinchecknullmobile a:hover{
+	color: #fff;
+	cursor: pointer;
+}
+.signupMessagemobile{
+	margin-top: 30px;
+	color: #b50808;
+
+}
+
+.signinMessgage{
+	margin-top: 30px;
+
+	height: 20px;
+	box-sizing: border-box;
+	color: red;
+}
+.signupMessage{
+	margin-top: 30px;
+	height: 20px;
+	box-sizing: border-box;
+	color: red;
+}
+
+
+.forgotpassword{
+	margin-top: 30px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+
+.modal-content{
+	border: none;
+}
+.modal-header, .modal-footer{
+	border: none;
+}
+.modal-header h1{
+	margin: 0px;
+	letter-spacing: 1.5px;
+}
+.modal-header button{
+	color: #fff;
+	outline: none;
+}
+.modal-header button:hover{
+	color: #fff;
+}
+
+
+
+.modal_2-header{
+	display: flex;
+	justify-content: end;
+	margin-top: 80px;
+}
+.modal_2-header button{
+	background-color: transparent;
+	outline: none;
+	border: none;
+	color: #fff;
+	margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagenameinup h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.pagenameinup p{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.login_glass{
+	left: 15% !important;
+}
+.login_glass{
+    right: 0;
+
+     height: 70px !important;
+   width: 250px !important;
+}
+
+
+.label span{
+  font-family: bodyne !important;
+}
+
+
+
+
+
+
+
+.signinn{
+  font-size: 14px;
+}
+
+label span, .label02 span{
+  font-size: 14px !important;
+}
+
+
+
+
+
+
+
+.custom-btnba{
+	height: 40px;
+	width: 170px;
+	border-radius: 50px;
+	border: 1px solid #ffffff00;
+	background-image: linear-gradient(315deg, #5f3212 0%, #eac9b1 74%);
+	
+	color: #000000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	outline: none;
+	transition: all ease .5s;
+}
+.custom-btnba p{
+	margin: 0px !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bolo{
+    transition: ease 1s;
+    position: absolute;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    background-color: #ffffff1b;
+    backdrop-filter: blur(10px);
+    height: 100%;
+    width: 550px;
+    border-radius: 10px;
+
+}
+
+.bolofake{
+    transform: translateX(100%);
+    transition: ease 1s;
+    position: absolute;
+    z-index: -1;
+    width: 550px;
+    background-color: rgba(253, 252, 252, 0.328);
+	backdrop-filter: blur(10px);
+    box-shadow: inset 0px 0px 15px 0px #021f1d;
+    border-radius: 10px;
+    padding: 50px 0px;
+    height: 100%;
+}
+
+.input02, .label02{
+    margin-top: 30px;
+}
+
+.contentsninupp{
+    display: grid;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+.contentsninupp p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+.contentsninupp ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+
+}
+.contentsninupp ul li a i{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    transition: all ease .5s;
+}
+
+.contentsninupp ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+
+.bgrrrrrr{
+   padding: 80px 0px;
+
+}
+
+
+.bgrsigninup{
+    padding: 0px 30px; 
+    height: 500px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 150px;
+}
+
+.bgrsigninup_block{
+    position: relative;
+}
+
+
+
+
+  .bgrsigninup input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    height: 40px;
+  }
+  
+  .bgrsigninup input:focus,
+  .bgrsigninup input:valid {
+    outline: 0;
+    border-bottom-color: lightblue;
+  }
+  
+  .bgrsigninup label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .bgrsigninup label span{
+    display: inline-block;
+    font-size: 18px;
+ 
+    min-width: 5px;
+    color: #fff;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .bgrsigninup input:focus+label span,
+  .bgrsigninup input:valid+label span {
+    color: lightblue;
+    transform: translateY(-30px);
+    font-family: bodyne;
+  }
+  .bgrsigninup input:focus+label span,
+  .bgrsigninup input:valid+label span {
+    color: lightblue;
+    transform: translateY(-30px);
+    font-family: bodyne;
+  }
+
+
+
+
+
+
+
+.canchochuan{
+  display: flex;
+  justify-content: center;
+}
+
+
+.btnmobiesign{
+    height: 40px;
+    width: 150px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 6px;
+    
+
+}
+
+.btnmobiesign a{
+  text-decoration: none;
+  color: #fff;
+
+}
+.btnmobiesign a:hover{
+	color: #fff;
+	cursor: pointer;
+}
+
+
+
+
+.hoversigninup{
+    color: #fff;
+}
+
+.hoversigninup:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+.btnchangetosignup, .btnchangetosignin{
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bgrrrrrrmobie{
+   
+    padding: 50px 0px;
+}
+
+
+
+
+  .bgrsigninupmobie label{
+    padding: 0px 120px;
+
+}
+
+.bgrsigninupmobie{
+    padding: 0px 30px; 
+    height: 650px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.bgrsigninup_block{
+    position: relative;
+}
+
+
+
+
+  .bgrsigninupmobie input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    height: 40px;
+  }
+  
+  .bgrsigninupmobie input:focus,
+  .bgrsigninupmobie input:valid {
+    outline: 0;
+    border-bottom-color: lightblue;
+  }
+  
+  .bgrsigninupmobie label{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .bgrsigninupmobie label span{
+    display: inline-block;
+    font-size: 18px;
+ 
+    min-width: 5px;
+    color: #fff;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .bgrsigninupmobie input:focus+label span,
+  .bgrsigninupmobie input:valid+label span {
+    color: lightblue;
+    transform: translateY(-30px);
+    font-family: bodyne;
+  }
+  .bgrsigninupmobie input:focus+label span,
+  .bgrsigninupmobie input:valid+label span {
+    color: lightblue;
+    transform: translateY(-30px);
+    font-family: bodyne;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================ NUT BTN 1 ====================*/
+.btnmotne{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 100px;
+	color: #fff;
+	text-align: center;
+	transition: .5s !important;
+	background-color: linear-gradient(-10deg, #825637 0%, #FAE6D8 74%);
+}
+
+.btnmotne:hover{
+	
+	background-color: linear-gradient(-10deg, #0a0a09 0%, #f36907 74%);
+	border: none;  
+	transition: .5s;
+}
+.btnmotne p{
+	margin: 0px;
+}
+
+
+
+/*================ NUT BTN 2 ====================*/
+.btnhaine{
+	position: relative;
+	height: 40px;
+	
+	border: 1px solid #fff;
+	border-radius: 100px;
+	color: #fff;
+	text-align: center;
+	background-color: linear-gradient(315deg, #825637 0%, #FAE6D8 74%);
+	background-color: #fff;
+	background-image: linear-gradient(-10deg, #825637 0%, #FAE6D8 74%);
+	  border: 1px solid #ffffff00;
+	  z-index: 1;
+}
+
+  .btnhaine:after{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	border-radius: 100px;
+	 background-color: #021a19;
+	 background: rgba(255, 255, 255, 0.337);
+	 backdrop-filter: blur(10px);
+	transition: all 0.3s ease;
+  }
+  .btnhaine:hover{
+	color: #fff;
+	cursor: pointer;
+  }
+  .btnhaine:hover:after{
+	top: 0;
+	height: 100%;
+  }
+  .btnhaine:active{
+	top: 2px;
+  }
+  
+
+
+/*================ nut view more ====================*/
+.cta {
+	display: flex;
+	border: none;
+	background: none;
+	align-items: center;
+	justify-content: center;
+}
+.bloc{
+	margin-bottom: 15px;
+}
+.cta span{
+  padding-bottom: 5px;
+  font-size: 16px;
+  font-family: bodyne;
+  text-transform: capitalize ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------stroke btn-----------------------*/
+
+
+
+.js-discover-circle{
+	background-color: linear-gradient(315deg, #825637 0%, #FAE6D8 74%);
+	      	
+}
+
+.e_btn {
+	font-size: 1em;
+	line-height: 1em;
+	letter-spacing: 0.04em;
+	display: inline-block;
+  }
+  
+  .brd_btn--svg__circle{
+	  width: 100%;
+	}
+  .brd_btn--svg__border{
+	  width: 230px;
+	}
+	  
+  .brd_btn--svg {
+	position: relative;
+	height: 52px;
+	width: 230px;
+	overflow: hidden;
+    border-radius: 50px;
+	
+
+  }
+
+  .brd_btn--svg:hover{
+	
+	border:inherit;
+  }
+  .brd_btn--svg:hover .brd_btn--svg__circle circle {
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	border:inherit;
+  }
+  .brd_btn--svg:hover .brd_btn--svg__label {
+	color: #fff;
+  }
+  .brd_btn--svg:hover .brd_btn--svg__border--left path,
+  .brd_btn--svg:hover .brd_btn--svg__border--right path {
+	stroke-dasharray: 61.8204345703125 61.8204345703125;
+	stroke-dashoffset: 0;
+	-webkit-transition-delay: 0.25s;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-in-out;
+	-webkit-transition-property: stroke-dashoffset;
+	-moz-transition-delay: 0.25s;
+	-moz-transition-duration: 0.5s;
+	-moz-transition-timing-function: ease-in-out;
+	-moz-transition-property: stroke-dashoffset;
+	-ms-transition-delay: 0.25s;
+	-ms-transition-duration: 0.5s;
+	-ms-transition-timing-function: ease-in-out;
+	-ms-transition-property: stroke-dashoffset;
+	transition-delay: 0.25s;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+	transition-property: stroke-dashoffset;
+  }
+  .brd_btn--svg__label {
+	-webkit-font-smoothing: antialiased;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	z-index: 3;
+	width: 100%;
+	-webkit-transition: color 0.5s ease-in-out;
+	transition: color 0.5s ease-in-out;
+  }
+  .brd_btn--svg__circle circle {
+	-webkit-transition: transform 0.5s ease-in-out;
+	-webkit-transform: scale(1.1);
+	-webkit-transform-origin: 50% 50%;
+	-moz-transition: transform 0.5s ease-in-out;
+	-moz-transform: scale(1.1);
+	-moz-transform-origin: 50% 50%;
+	-ms-transition: transform 0.5s ease-in-out;
+	-ms-transform: scale(1.1);
+	-ms-transform-origin: 50% 50%;
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	transition: -webkit-transform 0.5s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+	transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+	transform: scale(1.1);
+	transform-origin: 50% 50%;
+  }
+  .brd_btn--svg__border--left path, .brd_btn--svg__border--right path {
+	stroke-dasharray: 61.8204345703125 61.8204345703125;
+	-webkit-transition-duration: 0s;
+	-webkit-transition-timing-function: ease-in-out;
+	-webkit-transition-property: stroke-dashoffset;
+	-webkit-transition-delay: 0.5s;
+	-moz-transition-duration: 0s;
+	-moz-transition-timing-function: ease-in-out;
+	-moz-transition-property: stroke-dashoffset;
+	-moz-transition-delay: 0.5s;
+	-ms-transition-duration: 0s;
+	-ms-transition-timing-function: ease-in-out;
+	-ms-transition-property: stroke-dashoffset;
+	-ms-transition-delay: 0.5s;
+	transition-duration: 0s;
+	transition-timing-function: ease-in-out;
+	transition-property: stroke-dashoffset;
+	transition-delay: 0.5s;
+  }
+  .brd_btn--svg__border--left path {
+	stroke-dashoffset: -61.8204345703125;
+  }
+  .brd_btn--svg__border--right path {
+	stroke-dashoffset: 61.8204345703125;
+  }
+  .brd_btn--svg svg, .brd_btn--svg__label {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform: translate(-50%, -50%);
+	-moz-transform-origin: 50% 50%;
+	-ms-transform: translate(-50%, -50%);
+	-ms-transform-origin: 50% 50%;
+	transform: translate(-50%, -50%);
+	transform-origin: 50% 50%;
+  }
+  
+  .c-white {
+	color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/*================ nut view more icon ben trai====================*/
+
+
+
+.viewiconbentrai {
+	display: flex;
+	overflow: hidden;
+	border: none;
+	background: none;
+	color: #fff;
+	align-items: center;
+}
+
+.viewiconbentrai span{
+  padding-bottom: 0px;
+ 
+  font-size: 16px;
+  font-family: bodyne;
+  padding-right: 0px;
+  text-transform: capitalize ;
+}
+.viewiconbentrai span:hover{
+	color: #FAE6D8;
+}
+.viewiconbentrai i {
+	margin-left: 15px;
+	margin-bottom: 0px;
+	color: #fff;
+  	transform: translateX(-15px);
+ 	transition: all 0.3s ease;
+}
+
+.viewiconbentrai:hover i {
+	color: #FAE6D8;
+  transform: translateX(-25px);
+}
+
+.viewiconbentrai:active i {
+	
+  transform: scale(0.9);
+}
+.hover-underline-animation2{
+	position: relative;
+}
+.gachchanchaychayblabla{
+	position: absolute;
+	height: 2px;
+	background-color: #fff;
+	width: 0%;
+	transition: 0.5s;
+	right: 0;
+	bottom: 0;
+}
+
+
+
+/* =============nut btn moi 01============*/
+
+.btn-13 {
+	color: #000;
+	 background-image: linear-gradient(315deg, #825637 15%, #FAE6D8 100%);
+	border: none;
+	z-index: 1;
+  }
+  .btn-13:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	border-radius: 50px;
+    background-image: linear-gradient(315deg, #5f3212 0%, #eac9b1 74%);
+	box-shadow:
+	 0px 0px 0px 0px rgba(255, 255, 255, 0.444),
+	 -4px -4px 5px 0px rgba(255, 255, 255, 0.141),
+	 7px 7px 20px 0px #0002,
+	 4px 4px 5px 0px #0001;
+	transition: all 0.3s ease;
+  }
+  .btn-13:hover {
+	color: #050101;
+  }
+  .btn-13:hover:after {
+	top: 0;
+	height: 100%;
+  }
+  .btn-13:active {
+	top: 2px;
+  }
+  
+  .custom-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 130px;
+	height: 40px;
+	color: #ffffff;
+	border-radius: 50px;
+	font-family: bodyne;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	 box-shadow:inset 2px 2px 2px 0px rgba(255, 255, 255, 0.064),
+	 7px 7px 20px 0px rgba(0, 0, 0, 0.036),
+	 4px 4px 5px 0px rgba(0, 0, 0, 0.045);
+	outline: none;
+	overflow: hidden;
+  }
+
+
+
+
+  .btn-hai {
+	color: #ffffff;
+	border-radius: 100px;
+	border: 1px solid #fff;
+	z-index: 1;
+  }
+
+  .custom-btnhai{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 130px;
+	height: 40px;
+	color: #ffffff;
+	border-radius: 50px;
+	font-family: bodyne;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	 box-shadow:inset 2px 2px 2px 0px rgba(255, 255, 255, 0.064),
+	 7px 7px 20px 0px rgba(0, 0, 0, 0.036),
+	 4px 4px 5px 0px rgba(0, 0, 0, 0.045);
+	outline: none;
+	overflow: hidden;
+  }
+
+.custom-btnhaii{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 130px;
+	height: 40px;
+	color: #ffffff;
+	border-radius: 50px;
+	font-family: bodyne;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	 box-shadow:inset 2px 2px 2px 0px rgba(255, 255, 255, 0.064),
+	 7px 7px 20px 0px rgba(0, 0, 0, 0.036),
+	 4px 4px 5px 0px rgba(0, 0, 0, 0.045);
+	outline: none;
+	overflow: hidden;
+}
+
+
+/*sada
+*/
+/* =============nut btn moi 02===========
+
+
+
+.button11 p{
+	margin: 0px;
+}
+  .button11 {
+	position: relative;
+	overflow: hidden;
+	border-radius: 1.5rem;
+	border: 1px solid #fff;
+	background-size: 400%;
+	background: linear-gradient(-10deg, #825637 0%, #FAE6D8 74%);
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 130px;
+	height: 40px;
+  }
+  .button11:hover{
+	border: 1px solid #00000000;
+	color: #000;
+  }
+  .button11:hover::before {
+	transform: scaleX(1);
+	
+  }
+  
+  .button-content {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+  }
+  
+  .button11::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: scaleX(0);
+	transform-origin: 0 50%;
+	width: 100%;
+	height: inherit;
+	border-radius: inherit;
+	background: linear-gradient(-10deg, #825637 0%, #FAE6D8 74%);
+	transition: all 0.3s;
+  }
+
+
+=*/
+
+
+
+
+/*=======================================Navi=========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+	
+  	.iconnaviitem_block{
+		display: flex;
+		align-items: center;
+	}
+.iconnaviitem_block a{
+	color: #fff;
+	padding-top: 6px;
+	padding-right: 15px;
+}
+.iconnaviitem_block a:hover{
+	color: #fff;	
+	cursor: pointer;
+}	
+	.sokeo a{
+		padding: 0px;
+	}
+	
+
+
+
+#bgnavi{
+	height: 80px;
+	position: fixed;
+	top: 0px;
+	display: flex;
+	align-items: center;
+	z-index: 6;
+	transition: 0.5s;
+}
+.navimomoaoao{
+	background: rgba( 255, 255, 255, 0.25 );
+	backdrop-filter: blur(10px);
+}
+#logodt{
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 20px;
+}
+#menu{
+	height: 100%;
+	z-index: 1;
+}
+
+#menu ul{
+	margin-top: 25px;
+
+}
+
+#iconnavi{
+	z-index: 2;
+}
+
+.diviconnaviitemblockkkk{
+	transform: translateY(13px);
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.iconnaviitem_block{
+	z-index: 3;
+	flex: 0 0 20%;
+	position: relative;
+	max-width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all ease .5s;
+	
+}
+.sokeo a{
+	transition: all ease .5s;
+}
+.sokeo a:hover{
+	color: #FAE6D8;
+	scale: calc(1.2);
+
+}
+
+.iconnaviitem_a a{
+	font-size: 20px;
+}
+.iconnaviitem_asearch{
+	height: 40px;
+	width: 40px;
+	border-radius: 100px;
+	right: 11px;
+	position: absolute;
+	transition: 0.5s;
+}
+
+.iconaviitmhovermomoaoao{
+	background: rgb(0, 0, 0);
+	width: 600px;
+}
+.iconnaviitem_asearch i{
+	position: absolute;
+	right: 8px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+}
+.Navisearchinput{
+	position: absolute;
+	right: 40px ;
+	width: 0%;
+	display: none;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: 0.5s;
+	background-color: rgba(111, 111, 111, 0);
+	outline: none;
+	border: none;
+	color: #fff;
+}
+.Navisearchinput::placeholder{
+	color: #ffffff65;
+}
+.Navisearchinputasd{
+	display: block;
+	width: 90%;
+}
+#bgnavimobie{
+	height: 80px;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	transition: 0.5s;
+}
+
+
+
+#logomobie{
+	margin-top: 27px;
+}
+#iconnavi{
+	text-align: right;
+	padding: 0px;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+.doropdao{
+	position: fixed;
+	z-index: 50;
+	text-align: center;
+	top: 80px;
+	width: 270px;
+	height: 0px;
+	border-radius: 0px 0px 20px 20px;
+	background: rgba( 255, 255, 255, 0.25 );
+	backdrop-filter: blur(10px);
+	transition: 0.5s;
+	overflow: hidden;
+}
+.doropdaoanimation{
+	height: 240px;
+	
+}
+.bgdoropdao{
+	display: flex;
+	justify-content: center;
+}
+.doropdao ul{
+	list-style-type: none;
+	text-align: left;
+}
+.doropdao ul li{
+	margin-top: 35px;
+}
+.doropdao ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	transition: all ease .5s;
+}
+
+
+
+
+
+
+/*=======================================Navi Mobie=========================================*/
+
+.tongiconbombie,.divdiv{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 0px;
+	align-items: center;
+	transform: translateY(10px);
+}
+.navimobile_Xsreachblock{
+	margin-top: 15px;
+}
+
+.navimobliesearchsearchseachblock{
+	position: fixed;
+	height: 100% ;
+	width: 100%;
+	background-color: black;
+	bottom: 0;
+	z-index: 101;
+	display: none;
+	transition: 0.5s;
+}
+.navimobliesearchsearchseachblockanimation{
+	animation:navimobliesearchsearchseachblock ease 0.5s forwards ;
+}
+@keyframes navimobliesearchsearchseachblock{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.navimobliesearchsearchseachblockreverse{
+	animation:navimobliesearchsearchseachblockreverse ease 0.5s forwards ;
+}
+@keyframes navimobliesearchsearchseachblockreverse{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+	}
+}
+.navimobliesearchblock_X{
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+.iconnaviitem_aaabbb svg{
+	color: white;
+	font-size: 20px;
+}
+.iconnaviitem_blockkkkkkk{
+	position: relative;
+	display: flex;
+}
+
+.navimobilesearhciputttt{
+	position: absolute;
+	right:25px;
+	width: 0px;
+	opacity: 0;
+	outline: none;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid white;
+	transition: 1s;
+	color: white;
+}
+.navimobilesearhciputttt::placeholder{
+	color: white;
+}
+.navimobilesearhciputanimationnnnnnnnnn{
+	animation:navimobilesearhciputanimationnnnnnnnnn ease 1s forwards ;
+}
+
+
+
+
+
+#bgcontentnavimobie{
+	padding: 0px;
+}
+.muclucheadphone ul li{
+	border-top: none !important;
+
+}
+.bocaiboderdi li{
+	border-bottom: none !important;
+}
+.menucuanaviobiene{
+	padding: 0px;
+	padding-right: 15px;
+}
+.menucuanaviobiene ul{
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 0px;
+	
+}
+.menucuanaviobiene ul li{
+	height: 80px;
+	border: 1px solid #fff;
+	border-left: none;
+	border-right: none;
+	align-items: center;
+	display: flex;
+	width: 100%;
+	
+}
+.menucuanaviobiene ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#iconbar{
+	font-size: 15px;
+	padding-top: 20px;
+	color: #fff;
+}
+.toggle{
+	height: 5px;
+}
+
+#iconnavimobie{
+
+margin-top: 15px;
+
+}
+#iconnavimobie a{
+	text-decoration: none;
+	float: left;
+	color: #fff;
+}
+.navimobile_block{
+	position: fixed;
+	overflow: auto;
+	left: 0;
+	top:80px;
+	width: 100%;
+	height: 100%;
+	background-color: #002733;
+	transform: translateX(-100%);
+	display: block;
+	transition: 0.5s;
+	z-index: 50;
+}
+
+.nav_scrolled{
+	background-color: #ffffff32 !important;
+	backdrop-filter: blur(10px) !important;
+}
+
+
+
+
+#checkbox {
+	display: none;
+  }
+  
+  .toggle {
+	position: relative;
+	width: 40px;
+	cursor: pointer;
+	margin: auto;
+	display: block;
+	height: calc(4px * 3 + 11px * 2);
+  }
+  
+  .bar {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 3px;
+	width: 25px;
+	border-radius: calc(4px / 2);
+	background: #ffffff;
+	color: inherit;
+	opacity: 1;
+	transition: none 0.35s cubic-bezier(.5,-0.35,.35,1.5) 0s;
+  }
+  
+  /***** Tornado Animation *****/
+  
+  .bar--top {
+	bottom: calc(50% + 5px + 4px/ 2);
+	transition-property: bottom,transform;
+	transition-delay: calc(0s + 0.35s) * .6;
+  }
+  
+  .bar--middle {
+	top: calc(50% - 4px/ 2);
+	transition-property: opacity,transform;
+	transition-delay: calc(0s + 0.35s * .3);
+  }
+  
+  .bar--bottom {
+	top: calc(50% + 5px + 2px/ 2);
+	transition-property: top,transform;
+	transition-delay: 0s;
+  }
+  
+  #checkbox:checked + .toggle .bar--top {
+	transform: rotate(-135deg);
+	transition-delay: 0s;
+	bottom: calc(50% - 2px/ 2);
+  }
+  
+  #checkbox:checked + .toggle .bar--middle {
+	opacity: 0;
+	transform: rotate(-135deg);
+	transition-delay: calc(0s + 0.35s * .3);
+  }
+  
+  #checkbox:checked + .toggle .bar--bottom {
+	top: calc(50% - 4px/ 2);
+	transform: rotate(-225deg);
+	transition-delay: calc(0s + 0.35s * .6);
+  }
+
+
+
+
+
+  /* acodiong FOOTER*/
+
+
+  fieldset {
+	border: none;
+	width: 600px;
+	padding: 0;
+	overflow: hidden;
+}
+.collapsed a{
+	padding: 0px;
+}
+fieldset > label input[type=radio] {
+	display: none;
+}
+
+fieldset > label > span {
+	padding: 15px 20px;
+	display: block;
+	cursor: pointer;
+	font-weight: 900;
+	text-transform: uppercase;
+	background: #f1f1f1;
+	border-radius: 10px;
+}
+
+fieldset > label > div {
+	display: grid;
+	grid-template-rows: 0fr;
+	transition: all ease-in-out 300ms;
+	overflow: hidden;
+	padding: 0px;
+}
+
+fieldset > label input[type=radio]:checked + div {
+	grid-template-rows: 1fr;
+}
+
+fieldset > label > div > p {
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+
+.bgmenumobiefooter{
+	padding: 0px 15px;
+	margin-bottom: 0px;
+}
+.panel-title{
+	text-align: left;
+	
+}
+.panel-title a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0px;
+}
+.panel-body{
+	color: #fff;
+	font-family: bodyne;
+}
+.panel-body ul{
+	list-style-type: none;
+	padding-left: 30px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+.panel-body ul li{
+	margin-bottom: 15px;
+}
+.panel-body ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	transition: all ease .5s;
+}
+
+.panel-default>.panel-heading {
+	color: #ffffff;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-color: #e4e5e7;
+	padding: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  .panel-defaultt>.panel-heading{
+	color: #ffffff;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-color: #e4e5e7;
+	padding: 0px 0px;
+	margin-bottom: 0px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  } 
+  .daymargin{
+	margin-top: 50px;
+  }
+  .panel-default>.panel-heading a {
+	display: block;
+	padding: 20px 15px;
+  }
+  
+  .panel-default>.panel-heading a:after {
+	content: "\276C";
+
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	float: right;
+	transition: transform .25s linear;
+	-webkit-transition: -webkit-transform .25s linear;
+  }
+  
+  .panel-default>.panel-heading[aria-expanded="true"] {
+	background-color: transparent;
+
+	
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="true"]:after {
+	content: "\276D";
+	-webkit-transform: rotate(45deg);
+	transform: rotate(-90deg);
+	transition: all ease .5s;
+	
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="false"]:after {
+	content: "\276C";
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-90deg);
+	transition: all ease .5s;
+	
+  }
+  
+  .accordion-option {
+	width: 100%;
+	float: left;
+	clear: both;
+	margin: 15px 0;
+	font-family: bodyne;
+  }
+  
+  .accordion-option .title {
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .accordion-option .toggle-accordion {
+	float: right;
+	font-size: 16px;
+	color: #ffffff;
+  }
+  
+  .accordion-option .toggle-accordion:before {
+	content: "Expand All";
+  }
+  
+  .accordion-option .toggle-accordion.active:before {
+	content: "Collapse All";
+  }
+
+
+
+
+
+
+
+
+
+
+
+/*======================================= BANNER 01 =========================================*/
+
+
+
+
+.rearedmorebanner01 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+.tieudebanner_01 h1{
+	margin-top: 170px;
+}
+.content_banner_001_block{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.content_banner_001{
+	position: absolute;
+	top: 150px;
+	width: 100%;
+	height: 100%;
+}
+
+.rearedmorebanner01{
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+.nuttronchuyentrang{
+	display: flex;
+	justify-content: center;
+}
+.rearedmorebanner01{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.catttt{
+	padding-left: 0px;
+}
+.nuttronchuyentrang ul{
+	display: flex;
+	margin-top: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.nuttronchuyentrang ul li{
+	height: 7px;
+	width: 7px;
+	background-color: #fff;
+	border-radius: 20px;
+	margin: 5px;
+	transition: all ease .3s;	
+}
+.nuttronchuyentrang ul li:hover{
+	scale: calc(1.3);
+	cursor: pointer;
+	transition: all ease .3s;
+}
+.content_banner_001_item{
+	flex: 0 0 100%;
+	width: 100%;
+	position: absolute;
+	top: 0%;
+	height: 100%;
+}
+.contentbanner1_itemrelavetive{
+	
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+.content1item0101{
+	position: absolute;
+}
+
+.content1img{
+	
+}
+.content1_staranimation{
+	opacity: 0;
+	animation-name: content1_itemstart;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-delay: 0.2s; /* Thời gian trễ 3 giây */
+	animation-fill-mode: forwards;
+}
+.content1_staranimation3{
+	opacity: 0;
+	animation-name: content1_itemstart;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+.content1img01{
+	animation-delay:1s;
+	transform: rotate(10deg);
+	animation-name: content01_itemxoayxoay;
+  	animation-duration: 3s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}
+.content1img02{
+	transform: rotate(10deg);
+	animation-delay:0.5s ;
+	animation-name: content01_itemxoayxoay;
+  	animation-duration: 3s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}
+.content1img03{
+	transform: rotate(10deg);
+	animation-delay: 1.3s ;
+	animation-name: content01_itemxoayxoay;
+  	animation-duration: 3s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}
+
+
+@keyframes content1_itemstart{
+	from{
+		opacity: 0;
+		transform: translateY(200%);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+
+@keyframes content01_itemxoayxoay{
+	0%{
+		transform: rotate(10deg);
+	}
+	100%{
+		transform: rotate(-10deg);
+	}
+
+}
+
+
+.content_banner_001_item{
+	display: none;
+}
+
+.content1xuathienitemlon{
+	animation: content1xuathienitemlon ease 1s forwards ;
+}
+@keyframes content1xuathienitemlon{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.contentitem_banenr1{
+	width: 100%;
+}
+
+
+
+
+
+
+.banner1item2_tammang{
+	
+	background-color: #2d6334;
+	animation: banner1item2_tammang ease 1s forwards;
+}
+@keyframes banner1item2_tammang{
+	from{
+		height: 0%;
+	}
+	to{
+		height: 100%;
+	}
+}
+
+@keyframes banner1item0202_imgbaylen{
+	from{
+		transform: translateY(500px);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+
+
+
+.contentbanner1_itemrelavetive3{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: -1;
+}
+
+
+  
+/*======================================= On-Ear Headphones =========================================*/
+
+
+
+
+
+.On-Ear h1{
+	margin-bottom: 0px;
+}
+
+.inear h1{
+	margin-bottom: 0px;
+}
+
+
+
+.colorden{
+	background-color: #000000;
+	transition: all ease .5s;
+}
+.colortrang{
+	background-color: #ffffff;
+	transition: all ease .5s;
+}
+.colorxanhnitro{
+	background-color: #AEDCDB;
+	transition: all ease .5s;
+}
+.colorxanhd{
+	background-color: #112247df;
+	transition: all ease .5s;
+}
+.colorxanhl{
+	background-color: #031a11df;
+	transition: all ease .5s;
+}
+.colorhong{
+	background-color: #ffd2d2df;
+	transition: all ease .5s;
+}
+#background_onearheadphone{
+	margin-bottom: 130px;
+}
+
+.contentprducts a{
+	text-decoration: none;
+}
+.contentprducts p{
+	font-family: mediumne;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 15px;
+	margin: 0px;
+}
+
+.contentprducts ul li{
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+.addtocardxoxuong{
+	background-color: #ffffff50;
+	backdrop-filter: blur(5px);
+}
+
+
+
+
+.owlcuaproduct .owl-stage{
+	padding-top: 50px;
+	margin-bottom: 0px;
+}
+
+
+
+.chuatatca:hover{
+	background: rgba(255, 255, 255, 0.193);
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 0px #0000005f;
+	transition: all ease .5s;
+}
+
+.chuatatca:hover .addtocardxoxuong{
+	opacity: 1;
+}
+
+.anhsanphamin{
+	animation: anhsanphamin ease 1s forwards;
+}
+@keyframes anhsanphamin{
+	0%{
+		transform: translateY(-200px);
+	}
+	40%{
+		transform: translateY(20px);
+	}
+	60%{
+		transform: translateY(-20px);
+	}
+	80%{
+		transform: translateY(5px);
+	}
+	90%{
+		transform: translateY(-5px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+.anhsanphamout{
+	animation: anhsanphamout ease 1s forwards;
+}
+@keyframes anhsanphamout{
+	from{
+		opacity: 1;
+		transform: translateX(0) scale(1);
+	}
+	to{
+		opacity: 0;
+		transform: translateX(-100%) scale(0);
+	}
+}
+
+.anhsanphamdemo{
+	opacity: 0;
+	
+}
+
+.anhsanpham img{
+	position: absolute;
+}
+
+
+.anhsanpham{
+	overflow-y: hidden;
+}
+
+
+
+
+
+
+
+
+/*======================================= Banner 02 =========================================*/
+
+
+
+#bgbannersobaane{
+	padding: 0px;
+	background-image: url(../imgs/pexels-huy-phan-3076897.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	height: 100%;
+	display: block;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.contentbannersoba{
+	display: flex;
+	justify-content: center;
+
+}
+.contentbannersoba h1{
+	font-size: 50px;
+	margin: 0px;
+
+}
+.ritmorebannersoba a, .ritmorebannersoba span{
+	text-decoration: none;
+	font-size: 25px;
+}
+.headphonetrangoverflow{
+	box-shadow: 0px 0px 20px 0px #04212365;
+	border-radius: 20px;
+}
+
+
+.btn-2-location{
+	position: absolute;
+	bottom: 17%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 5;
+	opacity: 0;
+}
+#magicheadphone h2{
+	transition: .5s;
+	position: absolute;
+	align-self: center;
+	
+	z-index: 4;
+	cursor: default;
+	margin: 0;
+}
+.magicheadphoneh1animation{
+	top:45% !important;
+}
+#magicheadphone{
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(20deg, #2d6334 5%, #8C9EA0 70%);
+	border-radius: 20px;
+	padding: 0px;
+	margin-bottom: 45px;
+	position: relative;
+	
+	
+}
+#magicheadphone a{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+#magicheadphone img{
+	position: absolute;
+	
+}
+.glassmagicmomoaoao{
+	width: 100%;
+	height: 100%;
+	z-index: 3;
+	position: absolute;
+	border-radius: 20px;
+	transform: translateY(50%) ;
+	transition:.5s;
+	background: linear-gradient(315deg, #1111115c 0%, #ffffff49 74%);
+	opacity: 0;
+	backdrop-filter: blur(5px);
+}
+.glassmagicmomoaoao p{
+	text-align: center;
+	padding-top: 270px;
+	color: #fff;
+}
+.glassmagicmomoaoao_block{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	
+}
+.glassnemaic{
+	
+	height: 100%;
+	width: 100%;
+	border-radius: 20px;
+	position: absolute;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	z-index: 3;
+	overflow: hidden;
+	backdrop-filter: blur();
+	background-color: rgba( 255, 255, 255, 0 );
+	transition: all ease .5s;
+	
+}
+
+.glassmagicbayletrenbautroicao{
+	animation:glassmagicbayletrenbautroicao 0.5s forwards;
+}
+@keyframes glassmagicbayletrenbautroicao {
+	from{
+		opacity: 0;
+		transform: translate(-50%,100%);
+	}
+	to{
+		opacity: 1;
+		
+		transform: translate(-50%,0%);
+	}
+	
+}
+.glassmagicbaylexuongbautroicao{
+	animation:glassmagicbaylexuongbautroicao 0.5s forwards;
+	}
+@keyframes glassmagicbaylexuongbautroicao {
+	from{
+		opacity: 1;
+		transform: translate(-50%,-0%);
+	}
+	to{
+		opacity: 0;
+		transform: translate(-50%,100%);
+		
+	}
+	
+}
+
+.glassnemaic p{
+	width: 200px;
+	margin-bottom: 30px;
+
+}
+.tainghe1 img{
+	width: 150px;
+	left: 250px;
+	top: 70px;
+	transition: 0.5s;
+}
+.tainghe2 img{
+	width: 250px;
+	left: -100px;
+	top: -80px;
+	z-index: 3;
+	transition: 0.5s;
+}
+.tainghe2img{
+	transform:translate(-20px,-30px) rotate(-20deg) scale(1.1);
+}
+.tainghe1img{
+	transform:translate(20px,-30px) rotate(20deg) scale(1.1);
+}
+.glassmagicmomoaoaoanimation{
+	transform:translateY(0);
+	opacity:1;
+}
+.taingheotren,.taingheoduoi{
+	width: 50%;
+	position: absolute;
+	right: 0;
+	
+}
+.taingheotrenanimation{
+	transform:translate(30px,-30px) rotate(15deg);
+}
+.glassne99 h1{
+	margin: 0px ;
+	text-align: left;
+	
+}
+
+
+
+.headphonetrangmomoaoao{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(315deg, #1111115c 0%, #ffffff49 74%);
+	border-radius: 20px;
+	transform: translateY(35%);
+	opacity: 0;
+	transition: 0.5s;
+}
+.headphonetrangmomoaoaoanimation{
+	transform:translateY(0);
+	opacity: 1;
+}
+.headphonetrangoverflow{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.headphonetrang_block h2{
+	text-align: left;
+}
+.headphonetrang_block{
+	position: absolute;
+	width: 70%;
+	left: 0;
+	height: 100%;
+	transform: translate(35px,27%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 50px 0;
+	transition: 0.5s;
+	z-index: 5;
+}
+.headphonetrang_blockanimation{
+	transform:translate(55px,0px);
+}
+.headphonetrang_content{
+	color: white;
+	width: 90%;
+	opacity: 0;
+	transition: 0.5s;
+}
+.headphonetrang_content a{
+	margin-top: 2em;
+}
+.headphonetrang_contentopacity{
+	opacity: 1 !important;
+}
+.headphonetrangbtn_block{
+	opacity: 0;
+	color: white;
+}
+
+.headphonetrangbtn i{
+	display: flex;
+	align-items: flex-end;
+	margin-left: 10px;
+
+}
+
+
+.ritmorebannersoba{
+	display: flex;
+	justify-content: center;
+	top: 140px;
+}
+
+
+
+
+
+
+
+
+
+/*======================================= In-Ear Headphones =========================================*/
+/*======================================= Banner 03 =========================================*/
+#backroubanner03{
+	
+	background-image: url(../imgs/instagram/pexels-cottonbro-studio-9707239.jpg);
+	height: 670px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 0px;
+
+	
+}
+#backroubanner03 .container{
+	height: 100%;
+	
+}
+#backroubanner03 .container .row{
+	height: 100%;
+	
+}
+#backroubanner03 .container .row .contentbannersoba{
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+/*======================================= True Wireless =========================================*/
+.truewire h1{
+	margin-bottom: 0px;
+}
+/*======================================= just released =========================================*/
+.bgjustreleased{
+	margin-top: 80px;
+}
+.justre h1{
+	margin-top: 0px;
+	margin-bottom: 80px;
+}
+.contentjusstre h2{
+	padding-top: 50px;
+	text-align: center;
+}
+.contentjusstre p{
+	text-align: center;
+	font-family: mediumne;
+	font-size: 50px;
+	color: #fff;
+
+}
+.contentjusstre ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 450px;
+}
+.contentjusstre ul li{
+	background-color: #ffffff3c;
+	backdrop-filter: blur(20px);
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.contentjusstre ul li a{
+	color: #fff;
+	font-size: 20px;
+}
+.boncucmausacsacso{
+	position: absolute;
+	z-index: 2;
+	display: flex;
+	width: 100%;
+	padding: 0px 470px;
+	justify-content: space-between !important;
+}
+.color1, .color2, .color3, .color4{
+	border-radius: 30px;
+	height: 20px;
+	width: 20px;
+	transition: all ease .5s;
+
+}
+
+.color1{
+	background-color: #ffcaca;
+}
+.color2{
+	background-color: #fff;
+}
+.color3{
+	background-color: #222222;
+}
+.color4{
+	background-color: #1f2760;
+}
+
+
+.aucarouseo{
+	height: 400px;
+}
+.realactive{
+	opacity: 0.5;
+}
+.aucarouseo div img{
+	transition: 0.5s;
+}
+.markthunho div img{
+	transform: scale(0.5);
+	transition: all ease .5s;
+}
+.markphongto div img{
+	transform: scale(1.2);
+	transition: all ease .5s;
+}
+
+
+
+
+
+
+
+
+/*======================================= Our Clients =========================================*/
+
+
+
+
+.pagenameourclientss h1{
+	margin-top: 45px;
+}
+
+
+.benphai{
+	top:50%;
+	right: 0;
+	
+
+}
+.benphai i, .bentrai i{
+	cursor: pointer;
+	margin: -30px;
+
+}
+.benphai i{
+	margin-left: -28px;
+}
+.bentrai i{
+	margin-left: 30px;
+}
+.bentrai{
+	top:50%;
+	transform: translateX(-15px);
+}
+.feedbackrowrelative{
+	position: relative;
+	align-self: center;
+}
+
+
+
+.avata{
+	padding: 0px;
+	border-radius: 100px;
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	transform: translateY(-50%);
+	transition: all ease .5s;
+	overflow: hidden;
+}
+
+
+.namefeedback{
+	text-align: center;
+	margin-top: 25%;
+	color: #fff;
+
+}
+.namefeedback i{
+	color: #FFC164;
+	font-size: 18px;
+}
+.namefeedback h2{
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+.namefeedback span{
+	color: #c2c2c2;
+}
+.namefeedback p{
+	margin-top: 18px;
+	margin-bottom: 0px;
+}
+.nutcuafeedback{
+	position: absolute;
+	font-size: 30;
+	z-index: 3;
+	color: white;
+	height: 20px;
+	width: 20px;
+}
+.owl-stage{
+	height: 200px;
+	
+}
+
+.nutfeedbackblock{
+	width: 100%;
+	height: 100%;
+}
+.owl-carousel-1{
+	display: flex;
+	padding: 0;
+	margin-bottom: 80px;
+	transition: ease-out 0.6s;
+	transform: translateX(-33.33333%);
+	
+}
+.gorighttt{
+	animation: gorighttt 0.6s;
+}
+@keyframes gorighttt{
+	from{
+		transform: translateX(-33.33333%);
+	}
+	to{
+		transform: translateX(0);
+	}
+}
+.glassne1{
+	transform: scale(.6);
+	filter:blur(5px) ;
+	transition: 0.5s;
+}
+.choose{
+	transform: scale(1);
+	filter: blur(0px);
+	z-index: 3;
+}
+
+
+.feedbackwidth{
+	-ms-flex: 0 0 33.333333%;
+	flex: 0 0 33.333333%;
+	max-width: 33.333333%;
+}
+
+
+
+
+/*======================================= Our Latest Instagram =========================================*/
+
+
+.anhsohai, .anhsobon{
+	margin-top: 30px;
+	
+}
+
+
+
+.hastagins a{
+	text-decoration: none;
+}
+.anhsomot, .anhsohai, .anhsoba, .anhsobon, .anhsonam{
+	display: flex;
+	transition: all ease .5s;
+}
+
+.tamneninsta{
+	position: absolute;
+	background: linear-gradient(315deg, #1111115c 0%, #ffffff49 74%);
+	text-align: center;
+	align-items: center;
+	display: flex;
+	border-radius: 10px;
+	justify-content: center;
+	backdrop-filter: blur(5px);
+	height: 100%;
+	width: 92%;
+	opacity: 0;
+	transition: all ease .5s;
+}
+
+.anhsomot i, .anhsohai i, .anhsoba i, .anhsobon i, .anhsonam i{
+	color: #fff;
+	font-size: 40px;
+	border: 4px solid #fff;
+	height: 70px;
+	width: 70px;
+	padding-top: 10px;
+	border-radius: 50px;
+	transition: all ease .5s;
+}
+
+
+/*======================================= Blogs =========================================*/
+
+.bblloogg{
+	margin-bottom: 80px;
+}
+.bblloogg .owl-item{
+	
+}
+.iconbloggg svg{
+	color: #fff;
+	opacity: 1;
+	transition: all ease .5s;
+}
+
+.iconbloggg{
+	position: absolute;
+	z-index: 2;
+	right: 15px;
+	top: 15px;
+	font-size: 20px;
+}
+
+
+
+.hidenanhblog{
+	height: 300px;
+	width: 100%;
+	background-color: #000;
+	overflow: hidden;
+}
+.hidenanhblog img{
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	transition: all ease .5s;
+}
+
+.contentttt h5{
+	margin-top: 10px;
+	transition: all ease .5s;
+}
+
+.contentttt{
+	padding: 0px 10px 15px 10px;
+	text-align: center;
+}
+.contentttt p{
+	margin-top: 5px;
+	margin-bottom: 10px;
+ text-align: center;
+ color: #c3c3c3;
+ font-size: 14px;
+}
+.contentttt p{
+	color: #c8c8c8;
+	font-size: 14px;
+	margin: 10px;
+}
+.contentttt a{
+	text-decoration: none;
+}
+
+.contentttt span{
+
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================= FOOTER=========================================*/
+
+#bgfooter{
+	background-color: #2d6334;
+	padding: 0px;
+}
+
+#logofooter{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+#logogioithieu{
+	display: flex;
+	transform: translateX(0);
+	width: 100%;
+	animation: slide-ngang 60s infinite;
+}
+.logogioithieuuuu{
+	overflow: hidden;
+}
+@keyframes slide-ngang{
+	0%{
+		transform: translateX(0);
+	}
+	100%{
+		transform: translateX(-300%);
+	}
+}
+#logogioithieu img{
+	height: 40px;
+	margin-right: 80px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+.aaaaa{
+	margin-top: 10px;
+}
+
+
+
+#subscribe input{
+	width: 100%;
+	height: 40px;
+	border-radius: 100px;
+	padding-left: 20px;
+	outline: none;
+	border: none;
+	color: #fff;
+	background: rgba(255, 255, 255, 0.103);
+	backdrop-filter: blur(10px);
+}
+#subscribe input::placeholder{
+	color: #aeaeae;
+
+}
+
+#subscribe a{
+	color: #fff;
+	font-size: 25px;
+	position: absolute;
+	right: 20px;
+}
+
+.footer_sendmail_block{
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.footer_sendmail_block a{
+	padding-bottom: 7px;
+	transition: all ease .5s;
+}
+
+
+.supportnek span, .companynek span, .informationnek span{
+	color: #fff;
+	font-family: headingne;
+	font-size: 20px;
+	
+}
+.supportnek ul, .informationnek ul, .companynek ul{
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 15px;
+}
+.supportnek ul li, .informationnek ul li, .companynek ul li{
+	margin-bottom: 10px;
+}
+
+.supportnek ul li a, .informationnek ul li a, .companynek ul li a{
+	color: #fff;
+	text-decoration: none;
+	transition: all ease .5s;
+}
+
+
+
+.coppyright p{
+	color: #fff;
+	margin: 0px;
+}
+.coppyright span{
+	color: #fff;
+	font-size: 25px;
+	margin-left: 10px;
+	position: absolute;
+	right: 15px;
+	align-items: center;
+}
+.coppyright span i{
+	margin-left: 10px;
+}
+.coppyright{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.textnamduoisubrigth{
+	font-size: 12px;
+	color: #aeaeae;	
+
+}
+
+
+
+
+
+
+/*==================================== Extra Large ==============================*/
+@media(min-width: 1200px){
+
+
+
+	.modal-content{
+		display: flex;
+		left: -200px;
+		width: 1000px;
+		background-color: transparent;
+	}
+
+
+
+
+	.addressbane ul li a:hover{
+		color: #fff !important;
+		transition: all ease .5s;
+	}
+	
+
+
+
+
+
+	#background_inearheadphone{
+		margin-top: 760px
+	}
+
+
+
+	.owl-carousel-1_blackpink{
+		overflow: hidden;
+		padding-top: 70px;	
+		margin-bottom: 25px;
+		position: relative;
+		
+	}
+
+
+
+
+
+
+
+
+
+/*nut right left product*/
+
+.fa-chevron-left, .fa-chevron-right{
+	position: absolute;
+	font-size: 25px;
+	margin-top: -20%;
+	color: #fff;
+}
+.fa-chevron-left{
+   margin-left: -3%;
+}
+.fa-chevron-right{
+	margin-left: 98%;
+}
+
+
+
+.custom-btnba:hover{
+	background-image: none;
+	border: 1px solid #ffffff;
+	transition: all ease .5s;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+
+/*nutbuynowvientrang*/
+.headphonetrangbtn_block:hover{
+	color: #000;
+}
+.btn-hai:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	border-radius: 50px;
+  	background-image: linear-gradient(315deg, #855330 0%, #ffe2ce 74%);
+	box-shadow:
+	 0px 0px 0px 0px rgba(255, 255, 255, 0.444),
+	 -4px -4px 5px 0px rgba(255, 255, 255, 0.141),
+	 7px 7px 20px 0px #0002,
+	 4px 4px 5px 0px #0001;
+	transition: all 0.3s ease;
+  }
+  .btn-hai:hover {
+	color: #050101;
+	border: 1px solid #ffffff00;
+  }
+  .btn-hai:hover:after {
+	top: 0;
+	height: 100%;
+  }
+  .btn-hai:active {
+	top: 2px;
+  }
+
+
+
+
+
+
+
+
+
+/*-------------nut readmore-----------*/
+
+.cta span:hover{
+	color: #FAE6D8;
+}
+.cta:hover i {
+	color: #FAE6D8;
+  	transform: translateX(0);
+}
+.cta:active i {
+	
+  transform: scale(0.9);
+}
+.hover-underline-animation {
+  position: relative;
+  color: rgb(255, 255, 255);
+  padding-bottom: 2px ;
+}
+.hover-underline-animation:after {
+	
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  color: #FAE6D8;;
+  background-color: #FAE6D8;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+/*-----------Navi--------*/
+
+
+#menu ul li a{
+	color: #ffffff;
+	font-family: headingne;
+	font-size: 20px;
+	padding: 0;
+	border: none;
+	position: relative;
+ 	transition: .5s ease;
+	letter-spacing: 1px;	
+}
+#menu ul li a:hover{
+	color: #FAE6D8;
+}
+
+#menu ul li a::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 0;
+	background-color: #FAE6D8;
+	transition: .5s ease;
+}
+#menu ul li a:hover::before{
+	width: 100%;
+}
+
+
+
+
+
+/*------------------Navi\--------*/
+.doropdao ul li a:hover{
+	color: #002433;
+	margin-left: 20px;
+	transition: all ease .5s;
+}
+/*------------------Navi mobie--------*/
+/*----------------- BANNER 1--------*/
+
+.content1item0202_tammang{
+	position: absolute;
+	width: 100%;
+	height: 0%;
+	bottom: 0;
+	border-radius: 1000px;
+	
+}
+#bgbannerdetam{
+	background-color: #00000045;
+	height: 650px;
+	padding-top: 40px;
+
+}
+.content_banner_001_blockhasitem{
+	width: 100%;
+	height: 400px;
+	margin-top: 150px;
+	position: relative;
+	display: flex;
+	z-index: -1;	
+}
+
+.content1item0101_01{
+	right: -200px;
+	bottom: 30px;
+	transform: scale(0.5) translateX(-50%);
+}
+.content1item0101_02{
+	left: -500px;
+	transform: translateX(60%);
+}
+.content1item0101_03{
+	top: 100px;
+	left:50%;
+	transform: translate(-50%,-70%) scale(0.3);
+}
+
+
+.contentitem0202_img01{
+	opacity: 0;
+	bottom: 0;
+	left: -30px;
+	height: 450px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .1s;
+}
+
+.contentitem0202_img02{
+	opacity: 0;
+	right: 30px;
+	top: 80px;
+	height: 240px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .5s;
+}
+.contentitem0202_img04{
+	opacity: 0;
+	right: 55px;
+	top: 50px;
+	height: 900px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .2s;
+}
+
+
+.contentitem0202_imgblock{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	border-radius: 200px;
+	bottom: 0px;
+}
+
+.contentitem0202_imgblock2{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	border-radius: 180px;
+	bottom: 0px;
+}
+
+/*------------------ On-Ear Headphones --------*/
+
+
+.color:hover{
+	scale: calc(1.2);
+	transition: all ease .5s;
+}
+
+.contentprducts ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 80px;
+}
+
+
+.anhsanpham{
+	width: 255px;
+	height: 255px;
+	animation-duration: 1s !important;
+	margin-bottom: 20px;
+	transition: all ease .5s;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.chuatatca:hover .anhsanpham{
+	scale: calc(1.1);
+	transition: all ease .5s;
+	transform: translateY(-45px) translatex(-0px);
+}
+
+.color1:hover, .color2:hover, .color3:hover, .color4:hover{
+	scale: calc(1.3);
+	cursor: pointer;
+	transition: all ease .5s;
+}
+
+
+.addtocardxoxuong a:hover{
+	color: #fff;
+	transition: all ease .5s;
+}
+.chuatatca{
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: center;
+	background-color: #ffffff00;
+	transition: all ease .5s;
+}
+
+.addtocardxoxuong:hover{
+	box-shadow: -3px 4px 7px 0px #02161a29;
+	top: 0px;
+	height: 46%;
+	width: 70px;
+	transition: all ease .5s;
+}
+.addtocardxoxuong{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	top: 0;
+	right: 0;
+	height: 65px;
+	overflow: hidden;
+	width: 50px;
+	padding: 20px 0px;
+	border-radius: 0px 20px 0px 20px;
+	transition: all ease .5s;
+	opacity: 0;
+}
+
+
+
+.addtocardxoxuong a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #825637;
+	margin-bottom: 35px;
+	transition: all ease .5s;
+}
+
+
+
+
+
+
+/*----------------- BANNER 2--------*/
+.taingheotren{
+	position: absolute;
+	top: -43px !important;
+	z-index: 6;
+	transition: 0.5s;
+}
+.taingheoduoiblock{
+	width: calc(100% - 30px);
+	margin-bottom: 0px;
+	height: 450px;
+	display: flex;
+	align-items: center;
+	transform: translate(-50px,125px);
+	z-index: 5;
+	border-radius:20px ;
+	position: absolute;
+	
+}
+.taingheoduoi{
+	position: absolute;
+	top: -43px !important;
+	z-index: -1 ;
+	transition: 0.5s;
+}
+.glassne99{
+	width: 100%;
+	margin-bottom: 0px;
+	height: 430px;
+	display: flex;
+	align-items: center;
+	transform: translate(-50px,125px);
+	z-index: 5;
+	border-radius:20px ;
+	position: relative;
+}
+
+/*--------------- In-Ear Headphones -----------------------*/
+/*------------------ Banner 03 -------------*/
+/*------------------- True Wireless ------------------*/
+/*------------------just released ----------------------*/
+/*-------------------- Our Clients --------------*/
+.benphai i:hover, .bentrai i:hover{
+	cursor: pointer;
+	color: #FAE6D8;
+}
+.avata:hover{
+	scale: calc(1.1);
+	border-radius: 100px;
+	transition: all ease .5s;
+	box-shadow: 0px 0px 20px 0px;
+}
+/*------------------Our Latest Instagram--------------*/
+
+.hastagins{
+	margin-top: 100px;
+}
+.hastagins p{
+	color: #b8b8b8;
+	margin-bottom: 0px;
+}
+.tieudeins h1{
+	margin-top: 180px;
+	margin-bottom: 130px;
+	text-align: left;
+	letter-spacing: 1.5px;
+}
+
+
+
+.anhsomot:hover .tamneninsta, .anhsohai:hover .tamneninsta, .anhsoba:hover .tamneninsta, .anhsobon:hover .tamneninsta, .anhsonam:hover .tamneninsta{
+	opacity: 100;
+	display: flex;
+	transition: all ease .5s;
+}
+.anhsomot i:hover, .anhsohai i:hover, .anhsoba i:hover, .anhsobon i:hover, .anhsonam i:hover{
+	color: #825637;
+	border: 4px solid #825637;
+	transition: all ease .5s;
+}
+
+
+/*------------------blog--------------*/
+
+
+.contentttt span::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 0;
+	background-color: #ffffff;
+	transition: .5s ease;
+}
+.contentttt span:hover::before{
+	width: 100%;
+}
+
+
+.iconbloggg svg:hover{
+	scale: calc(.7);
+	transition: all ease .5s;
+}
+
+.contentttt h5:hover{
+	color: #FAE6D8;
+	scale: calc(.9);
+	transition: all ease .5s;
+}
+.hidenanhblog img:hover{
+	top: 0;
+	left: 0;
+	scale: calc(2);
+	transition: all ease .5s;
+}
+
+
+
+
+/*---------------- FOOTER --------------*/
+#subscribe p{
+	color: #fff;
+	font-family: headingne;
+	font-size: 20px;
+}
+.supportnek ul li a:hover, .informationnek ul li a:hover, .companynek ul li a:hover{
+	color: #FAE6D8; 
+	padding-left: 15px;
+	transition: all ease .5s;
+}
+.footer_sendmail_block a:hover{
+	transform: rotate(45deg);
+	scale: calc(.9);
+	transition: all ease .5s;
+}
+#socialmedia{
+	margin-bottom: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	display: flex;
+	padding: 5px 80px;
+	justify-content: space-between;
+}
+#socialmedia a{
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	border: 2px solid #fff;
+	height: 40px;
+	width: 40px;
+}
+#socialmedia a{
+	transition: all ease .3s;
+	
+}
+#socialmedia a:hover{
+	border: 2px solid #FAE6D8;
+	
+	scale: calc(1.2);
+	color: #FAE6D8;
+	transition: all ease .3s;
+	
+}
+
+
+    /*===================sign in up=========================*/
+    .bgrsigninup label, .signinn{
+        padding: 0px 100px;
+    }
+
+    .custom-btnhai{
+
+        left: 0%;
+    }
+   
+    .contentsninupp ul li a i:hover{
+        scale: calc(.9);
+
+        border: 1px solid #825637;
+        color: #825637;
+        transition: all ease .5s;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/*==================================== Large ==============================*/
+@media(min-width: 992px) and (max-width: 1199px){
+
+
+
+
+
+
+
+	.modal-content{
+		display: flex;
+		left: -220px;
+		width: 1000px;
+		background-color: transparent;
+	}
+
+
+
+
+
+
+
+
+	.addressbane ul li a:hover{
+		color: #fff !important;
+		transition: all ease .3s;
+	}
+	
+
+
+
+
+
+	#background_inearheadphone{
+		margin-top: 750px;
+		margin-bottom: 30px;
+	}
+
+	.owl-carousel-1_blackpink{
+		overflow: hidden;
+		padding-top: 60px;	
+		margin-bottom: 25px;
+		position: relative;
+		
+	}
+
+
+
+
+
+
+/*nut right left product*/
+
+.fa-chevron-left, .fa-chevron-right{
+	position: absolute;
+	font-size: 25px;
+	margin-top: -25%;
+	color: #fff;
+}
+.fa-chevron-left{
+   margin-left: -3%;
+}
+.fa-chevron-right{
+	margin-left: 98%;
+}
+
+
+
+
+.custom-btnba:hover{
+	background-image: none;
+	border: 1px solid #ffffff;
+	transition: all ease .5s;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+
+
+
+
+	/*nutbuynowvientrang*/
+	.headphonetrangbtn_block:hover{
+		color: #000;
+	}
+	.btn-hai:after {
+		position: absolute;
+		content: "";
+		width: 100%;
+		height: 0;
+		bottom: 0;
+		left: 0;
+		z-index: -1;
+		border-radius: 50px;
+		  background-image: linear-gradient(315deg, #855330 0%, #ffe2ce 74%);
+		box-shadow:
+		 0px 0px 0px 0px rgba(255, 255, 255, 0.444),
+		 -4px -4px 5px 0px rgba(255, 255, 255, 0.141),
+		 7px 7px 20px 0px #0002,
+		 4px 4px 5px 0px #0001;
+		transition: all 0.3s ease;
+	  }
+	  .btn-hai:hover {
+		color: #050101;
+		border: 1px solid #ffffff00;
+	  }
+	  .btn-hai:hover:after {
+		top: 0;
+		height: 100%;
+	  }
+	  .btn-hai:active {
+		top: 2px;
+	  }
+	  
+
+/*-------------nut readmore-----------*/
+
+.cta span:hover{
+	color: #FAE6D8;
+}
+.cta:hover i {
+	color: #FAE6D8;
+  transform: translateX(0);
+}
+.cta:active i {
+	
+  transform: scale(0.9);
+}
+.hover-underline-animation {
+  position: relative;
+  color: rgb(255, 255, 255);
+  padding-bottom: 2px ;
+}
+.hover-underline-animation:after {
+	
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  color: #FAE6D8;;
+  background-color: #FAE6D8;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+/*-----------Navi--------*/
+.iconnaviitem_block a{
+
+}
+#iconnavi i{
+	margin-left: 0px;
+	font-size: 20px;
+	margin-top: 0px;	
+	transition: all ease .5s;
+}
+#iconnavi i:hover{
+	color: #FAE6D8;
+	scale: calc(1.2);
+	transition: all ease .5s;
+}
+#menu ul li a{
+	color: #ffffff;
+	font-family: headingne;
+	font-size: 20px;
+	padding: 0;
+	border: none;
+	position: relative;
+ 	transition: .5s ease;
+	letter-spacing: 1px;	
+}
+#menu ul li a:hover{
+	color: #FAE6D8;
+}
+
+#menu ul li a::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 0;
+	background-color: #FAE6D8;
+	transition: .5s ease;
+}
+#menu ul li a:hover::before{
+	width: 100%;
+}
+/*------------------Navi\--------*/
+/*------------------Navi mobie--------*/
+/*----------------- BANNER 2--------*/
+
+.contentitem0202_imgblock{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	border-radius: 160px;
+	bottom: 0;
+}
+
+.content1item0202_tammang{
+	position: absolute;
+	width: 100%;
+	height: 0%;
+	bottom: 60px;
+	border-radius: 1000px;
+	
+}
+
+#bgbannerdetam{
+	background-color: #00000045;
+	height: 600px;
+	padding-top: 60px;
+
+
+}
+.content_banner_001_blockhasitem{
+	width: 100%;
+	height: 400px;
+	margin-top: 150px;
+	position: relative;
+	display: flex;
+	z-index: -1;	
+}
+
+.content1item0101_01{
+	right: -200px;
+	bottom: -50px;
+	transform: scale(0.5) translateX(-50%);
+}
+.content1item0101_02{
+	left: -200px;
+	transform: translateX(60%);
+}
+.content1item0101_03{
+	top: 100px;
+	left:50%;
+	transform: translate(-50%,-70%) scale(0.3);
+}
+
+
+.contentitem0202_img01{
+	opacity: 0;
+	bottom: 0;
+	left: 0px;
+	height: 400px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .1s;
+}
+.contentitem0202_img02{
+
+	opacity: 0;
+	right: 30px;
+	top: 120px;
+	height: 200px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .5s;
+}
+.contentitem0202_img04{
+	opacity: 0;
+	right: -5px;
+	top: 90px;
+	height: 900px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .2s;
+}
+
+.contentitem0202_imgblock{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	border-radius: 200px;
+	bottom: 60px;
+}
+.contentitem0202_imgblock2{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	border-radius: 200px;
+	bottom: 0px;
+}
+
+
+/*------------------ On-Ear Headphones --------*/
+
+.color:hover{
+	scale: calc(1.2);
+	transition: all ease .5s;
+}
+.contentprducts ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 60px;
+}
+
+.anhsanpham{
+	width: 210px;
+	height: 210px;
+	animation-duration: 1s !important;
+	margin-bottom: 20px;
+	transition: all ease .5s;
+	position: relative;
+}
+.chuatatca:hover .anhsanpham{
+	scale: calc(1.1);
+	transition: all ease .5s;
+	transform: translateY(-45px) translatex(-0px);
+}
+
+.color1:hover, .color2:hover, .color3:hover, .color4:hover{
+	scale: calc(1.3);
+	cursor: pointer;
+	transition: all ease .5s;
+}
+.addtocardxoxuong a:hover{
+	color: #825637;
+	transition: all ease .5s;
+}
+.chuatatca{
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: center;
+	background-color: #ffffff00;
+	transition: all ease .5s;
+}
+
+.addtocardxoxuong:hover{
+	box-shadow: -3px 4px 7px 0px #02161a29;
+	top: 0px;
+	height: 52%;
+	width: 70px;
+	transition: all ease .5s;
+}
+.addtocardxoxuong{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	top: 0;
+	right: 0;
+	height: 65px;
+	overflow: hidden;
+	width: 50px;
+	padding: 20px 0px;
+	border-radius: 0px 20px 0px 20px;
+	transition: all ease .5s;
+	opacity: 0;
+}
+
+.addtocardxoxuong a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 35px;
+	transition: all ease .5s;
+}
+
+/*----------------- BANNER 2--------*/
+
+.taingheotren{
+	position: absolute;
+	top: -43px !important;
+	z-index: 6;
+	transition: 0.5s;
+}
+.taingheoduoiblock{
+	width: calc(100% - 30px);
+	margin-bottom: 50px;
+	height: 450px;
+	display: flex;
+	align-items: center;
+	transform: translate(-50px,125px);
+	z-index: 5;
+	border-radius:20px ;
+	position: absolute;
+	
+}
+.taingheoduoi{
+	position: absolute;
+	top: -43px !important;
+	z-index: -1 ;
+	transition: 0.5s;
+}
+.glassne99{
+	width: 100%;
+	margin-bottom: 0px;
+	height: 430px;
+	display: flex;
+	align-items: center;
+	transform: translate(-50px,125px);
+	z-index: 5;
+	border-radius:20px ;
+	position: relative;
+}
+/*--------------- In-Ear Headphones -----------------------*/
+/*------------------ Banner 03 -------------*/
+/*------------------- True Wireless ------------------*/
+/*------------------just released ----------------------*/
+/*-------------------- Our Clients --------------*/
+.benphai i:hover, .bentrai i:hover{
+	cursor: pointer;
+	color: #FAE6D8;
+}
+.avata:hover{
+	scale: calc(1.1);
+	border-radius: 100px;
+	transition: all ease .5s;
+	box-shadow: 0px 0px 20px 0px;
+}
+
+
+/*------------------Our Latest Instagram--------------*/
+
+.hastagins{
+	margin-top: 90px;
+}
+.hastagins p{
+	color: #b8b8b8;
+	margin-bottom: 0px;
+}
+
+.tieudeins h1{
+	margin-top: 148px;
+	margin-bottom: 100px;
+	text-align: left;
+	letter-spacing: 1.5px;
+}
+
+
+
+.anhsomot:hover .tamneninsta, .anhsohai:hover .tamneninsta, .anhsoba:hover .tamneninsta, .anhsobon:hover .tamneninsta, .anhsonam:hover .tamneninsta{
+	opacity: 100;
+	display: flex;
+	transition: all ease .5s;
+}
+.anhsomot i:hover, .anhsohai i:hover, .anhsoba i:hover, .anhsobon i:hover, .anhsonam i:hover{
+	color: #825637;
+	border: 4px solid #825637;
+	transition: all ease .5s;
+}
+
+/*------------------blog--------------*/
+
+
+.contentttt span::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 0;
+	background-color: #ffffff;
+	transition: .5s ease;
+}
+.contentttt span:hover::before{
+	width: 100%;
+}
+
+.iconbloggg i:hover{
+	scale: calc(.7);
+	transition: all ease .5s;
+}
+.hidenanhblog img:hover .iconbloggg i{
+	opacity: 100;
+	
+}
+.contentttt h5:hover{
+	color: #FAE6D8;
+	scale: calc(.9);
+	transition: all ease .5s;
+}
+.hidenanhblog img:hover{
+	top: 0;
+	left: 0;
+	scale: calc(2);
+	transition: all ease .5s;
+}
+
+
+
+
+
+
+
+
+
+/*---------------- FOOTER --------------*/
+#subscribe p{
+	color: #fff;
+	font-family: headingne;
+	font-size: 20px;
+}
+.supportnek ul li a:hover, .informationnek ul li a:hover, .companynek ul li a:hover{
+	color: #FAE6D8; 
+}
+.footer_sendmail_block a:hover{
+	transform: rotate(45deg);
+	scale: calc(.9);
+	transition: all ease .5s;
+}
+#socialmedia{
+	margin-bottom: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	display: flex;
+	padding: 5px 60px;
+	justify-content: space-between;
+}
+#socialmedia a{
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	border: 2px solid #fff;
+	height: 40px;
+	width: 40px;
+}
+#socialmedia a{
+	transition: all ease .3s;
+	
+}
+#socialmedia a:hover{
+	border: 2px solid #FAE6D8;
+	
+	scale: calc(1.2);
+	color: #FAE6D8;
+	transition: all ease .3s;
+	
+}
+
+
+ /*===================sign in up=========================*/
+ .bgrsigninup label, .signinn{
+	padding: 0px 60px;
+}
+
+
+.custom-btnhai{
+left: 0%;
+}
+.contentsninupp ul li a i:hover{
+scale: calc(.9);
+border: 1px solid #825637;
+color: #825637;
+transition: all ease .5s;
+}
+
+
+
+
+
+}
+
+
+
+
+
+/*==================================== Medium ==============================*/
+@media(min-width: 768px) and (max-width: 991px){
+
+
+
+
+	.modal-content{
+		display: flex;
+		left: -90px;
+		width: 700px;
+		background-color: transparent;
+	}
+
+
+
+
+
+
+
+	#background_inearheadphone{
+		margin-top: 740px;
+		margin-bottom: 50px;
+	}
+
+
+
+
+	.owl-carousel-1_blackpink{
+		overflow: hidden;
+		padding-top: 50px;	
+		margin-bottom: 25px;
+		position: relative;
+		
+	}
+
+
+/*nut right left product*/
+
+.fa-chevron-left, .fa-chevron-right{
+	position: absolute;
+	font-size: 25px;
+	margin-top: -28%;
+	color: #fff;
+}
+.fa-chevron-left{
+   margin-left: -7%;
+}
+.fa-chevron-right{
+	margin-left: 99%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------Navi-----------------*/
+#iconnavi i{
+	margin-left: 15px;
+	font-size: 18px;
+	margin-top: 0px;
+}
+#menu ul li a{
+	color: #ffffff;
+	font-family: headingne;
+	font-size: 18px;
+	padding: 0;
+	border: none;
+	position: relative;
+ 	transition: .5s ease;
+	letter-spacing: 1px;	
+}
+
+/*------------------Navi\--------*/
+
+.canlaiuser{
+	padding-right: 20px;
+}
+/*------------------Navi mobie--------*/
+/*----------------- BANNER 1--------*/
+.content1item0202_tammang{
+	position: absolute;
+	width: 100%;
+	height: 0%;
+	bottom: 60px;
+	border-radius: 1000px;
+	
+}
+
+#bgbannerdetam{
+	background-color: #00000045;
+	height: 600px;
+	padding-top: 40px;
+
+
+}
+.content_banner_001_blockhasitem{
+	width: 100%;
+	height: 400px;
+	margin-top: 150px;
+	position: relative;
+	display: flex;
+	z-index: -1;	
+}
+
+.content1item0101_01{
+	right: -280px;
+	bottom: -50px;
+	transform: scale(0.4) translateX(-50%);
+}
+.content1item0101_02{
+	left: -170px;
+	transform: scale(0.7) translateX(60%);
+}
+.content1item0101_03{
+	top: 100px;
+	left: 50%;
+	transform: translate(-50%,-70%) scale(0.3);
+}
+
+
+.contentitem0202_img01{
+	opacity: 0;
+	bottom: 0;
+	left: -20px;
+	height: 350px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .1s;
+}
+.contentitem0202_img02{
+	opacity: 0;
+	right: 30px;
+	top: 170px;
+	height: 170px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .5s;
+}
+.contentitem0202_img04{
+	opacity: 0;
+	right: -5px;
+	top: 150px;
+	height: 700px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .2s;
+}
+.contentitem0202_imgblock{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	border-radius: 200px;
+	bottom: 60px;
+}
+.contentitem0202_imgblock2{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	border-radius: 200px;
+	bottom: 0px;
+}
+
+/*------------------ On-Ear Headphones --------*/
+.contentprducts ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 50px;
+}
+.addtocardxoxuong{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	top: 0;
+	right: 0;
+	height: 130px;
+	overflow: hidden;
+	width: 50px;
+	padding: 15px 0px;
+	border-radius: 0px 10px 0px 25px;
+	transition: all ease .7s;
+	opacity: 1;
+	background-color: #ffffff50;
+	backdrop-filter: blur(5px);
+
+}
+
+.anhsanpham{
+	width: 190px;
+	height: 190px;
+	animation-duration: 1s !important;
+	margin-bottom: 20px;
+	transition: all ease .5s;
+	position: relative;
+}
+
+.chuatatca{
+	background: rgba(255, 255, 255, 0.25);
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 0px #0000005f;
+}
+
+
+.addtocardxoxuong a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 15px;
+	transition: all ease .5s;
+}
+
+
+
+
+
+
+
+
+
+	
+/*----------------- BANNER 2--------*/
+.taingheotren{
+	position: absolute;
+	top: -43px !important;
+	z-index: 6;
+	transition: 0.5s;
+}
+.taingheoduoiblock{
+	width: calc(100% - 30px);
+	margin-bottom: 50px;
+	height: 450px;
+	display: flex;
+	align-items: center;
+	transform: translate(-50px,125px);
+	z-index: 5;
+	border-radius:20px ;
+	position: absolute;
+	
+}
+.taingheoduoi{
+	position: absolute;
+	top: -43px !important;
+	z-index: -1 ;
+	transition: 0.5s;
+}
+.headphonetrang_block{
+	transform:translate(55px,0px);
+}
+.headphonetrangmomoaoao{
+	transform:translateY(0);
+	opacity: 1;
+}
+.headphonetrang_content,.headphonetrangbtn_block{
+	opacity: 1 !important;
+}
+.taingheotren,.taingheoduoi{
+	transform:translate(30px,-30px) rotate(15deg);
+}
+.glassne99{
+	width: 100%;
+	margin-bottom: 50px;
+	height: 430px;
+	display: flex;
+	align-items: center;
+	transform: translate(-50px,125px);
+	z-index: 5;
+	border-radius:20px ;
+	position: relative;
+}
+.glassmagicmomoaoao{
+	transform: translate(0);
+	opacity: 1;
+}
+
+#magicheadphone h1{
+	
+	top:45%;
+}
+.custom-btnhaii{
+	opacity: 1;
+}
+.glassmagicbayletrenbautroicao{
+	animation: none;
+}
+.glassmagicbaylexuongbautroicao{
+	animation: none;
+}
+/*--------------- In-Ear Headphones -----------------------*/
+/*------------------ Banner 03 -------------*/
+/*------------------- True Wireless ------------------*/
+/*------------------just released ----------------------*/
+/*-------------------- Our Clients --------------*/
+/*------------------Our Latest Instagram--------------*/
+.hastagins{
+	margin-top: 50px;
+}
+.hastagins p{
+	color: #b8b8b8;
+	margin-bottom: 0px;
+}
+.hastagins a{
+	text-decoration: none;
+	color: #fff;
+}
+#cumbenphai{
+	margin-bottom: 50px;
+}
+
+.tieudeins h1{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	text-align: left;
+	letter-spacing: 1.5px;
+}
+
+
+
+
+
+/*------------------blog--------------*/
+
+.contentttt a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+/*---------------- FOOTER --------------*/
+#subscribe p{
+	color: #fff;
+	font-family: headingne;
+	font-size: 20px;
+	text-align: center;
+}
+.thechuacontenFT{
+	margin-top: 30px;
+}
+#socialmedia{
+	margin-bottom: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	display: flex;
+	padding: 5px 80px;
+	justify-content: space-between;
+}
+#socialmedia a{
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	border: 2px solid #fff;
+	height: 40px;
+	width: 40px;
+}
+#socialmedia a{
+	transition: all ease .3s;
+	
+}
+
+
+  /*===================sign in up=========================*/
+  .bgrsigninupmobie label, .signinn{
+	padding: 0px 100px;
+}
+
+.bgrsigninupmobie{
+	background-color: #ffffff48;
+	backdrop-filter: blur(10px);
+	box-shadow: inset 0px 0px 15px 0px #000;
+	border-radius: 15px;
+	position: relative;
+	overflow: hidden;
+	}
+
+.content_signup{
+transform: translateY(100%);
+opacity: 0;
+}
+.bgrrrrrrmobie{
+position: absolute;
+}
+.changetosignup_1{
+animation: changetosignup_1 ease 1s forwards;
+}
+@keyframes changetosignup_1 {
+from{
+opacity: 0;
+transform: translateY(100%);
+}
+to{
+opacity: 1;
+transform: translateY(0%);
+}
+}
+
+.changetosignup_2{
+animation: changetosignup_2 ease 1s forwards;
+}
+@keyframes changetosignup_2 {
+from{
+opacity: 1;
+transform: translateY(0%);
+}
+to{
+opacity: 0;
+transform: translateY(-100%);
+}
+}
+.changetosignin_1{
+animation: changetosignin_1 ease 1s forwards ;
+}
+@keyframes changetosignin_1 {
+from{
+opacity: 0;
+transform: translateY(-100%);
+}
+to{
+opacity: 1;
+transform: translateY(0%);
+}
+}
+.changetosignin_2{
+animation: changetosignin_2 ease 1s forwards ;
+}
+@keyframes changetosignin_2 {
+from{
+opacity: 1;
+transform: translateY(0%);
+}
+to{
+opacity: 0;
+transform: translateY(100%);
+}
+}
+
+
+
+
+.custom-btnhai{
+left: 0%;
+}
+
+
+
+
+
+
+
+}
+
+/*==================================== small ==============================*/
+@media(min-width: 576px) and (max-width: 767px){
+
+
+
+	.modal-content{
+		display: flex;
+		left: -250px;
+		width: 1000px;
+		background-color: transparent;
+	}
+
+
+
+
+
+
+	#background_inearheadphone{
+		margin-top: 750px;
+		margin-bottom: 50px;
+	}
+
+
+	.owl-carousel-1_blackpink{
+		overflow: hidden;
+		padding-top: 50px;	
+		margin-bottom: 25px;
+		position: relative;
+		
+	}
+
+
+
+
+
+
+
+
+
+/*nut right left product*/
+
+.fa-chevron-left, .fa-chevron-right{
+	position: absolute;
+	font-size: 25px;
+	margin-top: -39%;
+	color: #fff;
+}
+.fa-chevron-left{
+   margin-left: -13%;
+}
+.fa-chevron-right{
+	margin-left: 102%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.glassne99{
+		transform: translate(0,0);
+		margin-bottom: -50px;
+	}
+	.glassne99{
+		width: 100%;
+		margin-bottom: 50px;
+		height: 430px;
+		display: flex;
+		align-items: center;
+		transform: translate(-4px,0px);
+		z-index: 5;
+		border-radius: 20px ;
+		position: relative;
+	}
+
+/*------------------Navi\--------*/
+
+.iconaviitmhovermomoaoao{
+	width: 300px;
+}
+
+/*------------------Navi mobie--------*/
+@keyframes navimobilesearhciputanimationnnnnnnnnn{
+	from{
+		width: 0px;
+	opacity: 0;
+	}
+	to{
+		width: 380px;
+		opacity: 1;
+	}
+}
+
+/*----------------- BANNER 1--------*/
+
+/*----------------- BANNER 1--------*/
+#bgbannerdetam{
+	background-color: #00000045;
+	height: 600px;
+	padding-top: 40px;
+
+}
+.content1item0202_tammang{
+	position: absolute;
+	width: 100%;
+	height: 0%;
+	bottom: 60px;
+	border-radius: 1000px;
+	
+}
+.content_banner_001_blockhasitem{
+	width: 100%;
+	height: 350px;
+	margin-top: 200px;
+	position: relative;
+	display: flex;
+	z-index: -1;	
+}
+.content1item0101_01{
+	right: -270px;
+	bottom: -90px;
+	transform: scale(0.3) translateX(-50%);
+}
+.content1item0101_02{
+	scale: calc(.7);
+	left: -200px;
+	transform: translateX(60%);
+}
+.content1item0101_03{
+	top: -50px;
+	scale: calc(.5);
+	left:50%;
+	transform: translate(-50%,-70%) scale(0.7);
+}
+
+.contentitem0202_img01{
+	opacity: 0;
+	bottom: 0;
+	left: 0px;
+	height: 350px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .1s;
+}
+.contentitem0202_img02{
+	opacity: 0;
+	right: 0px;
+	top: 80px;
+	height: 190px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .5s;
+}
+.contentitem0202_img04{
+	opacity: 0;	
+	right: -20px;
+	top: 130px;
+	height: 550px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .2s;
+}
+.contentitem0202_imgblock{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	border-radius: 0px 0px 170px 170px;
+	bottom: 60px;
+}
+.contentitem0202_imgblock2{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	border-radius: 0px 0px 177px 177px;
+	bottom: 0px;
+}
+
+/*------------------ On-Ear Headphones --------*/
+.contentprducts ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 40px;
+}
+.addtocardxoxuong{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	top: 0;
+	right: 0;
+	height: 130px;
+	overflow: hidden;
+	width: 50px;
+	padding: 15px 0px;
+	border-radius: 0px 10px 0px 25px;
+	transition: all ease .7s;
+	opacity: 1;
+	background-color: #ffffff50;
+	backdrop-filter: blur(5px);
+
+}
+
+.anhsanpham{
+	width: 172px;
+	height: 172px;
+	animation-duration: 1s !important;
+	margin-bottom: 20px;
+	transition: all ease .5s;
+	position: relative;
+}
+
+.chuatatca{
+	background: rgba(255, 255, 255, 0.25);
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 0px #0000005f;
+}
+
+
+.addtocardxoxuong a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 15px;
+	transition: all ease .5s;
+}
+
+
+
+
+/*----------------- BANNER 2--------*/
+.taingheotren{
+	position: absolute;
+	top: -32px !important;
+	z-index: 6;
+	transition: 0.5s;
+}
+.taingheoduoiblock{
+	width: calc(100% - 30px);
+	margin-bottom: 50px;
+	height: 450px;
+	display: flex;
+	align-items: center;
+	transform: translate(-50px,125px);
+	z-index: 5;
+	border-radius:20px ;
+	position: absolute;
+	
+}
+.taingheoduoi{
+	position: absolute;
+	top: -156px !important;
+	left: 255px;
+	z-index: -1 ;
+	transition: 0.5s;
+}
+
+@keyframes gorighttt{
+	from{
+		transform: translateX(-75%);
+	}
+	to{
+		transform: translateX(-25%);
+	}
+}
+
+.glassmagicmomoaoao{
+	transform: translate(0);
+	opacity: 1;
+}
+#magicheadphone{
+	margin-bottom: 100px;
+}
+#magicheadphone h1{
+	
+	top:45%;
+}
+.custom-btnhaii{
+	opacity: 1;
+}
+.glassmagicbayletrenbautroicao{
+	animation: none;
+}
+.glassmagicbaylexuongbautroicao{
+	animation: none;
+}
+.headphonetrang_block{
+	transform:translate(55px,0px);
+}
+.headphonetrangmomoaoao{
+	transform:translateY(0);
+	opacity: 1;
+}
+.headphonetrang_content,.headphonetrangbtn_block{
+
+	opacity: 1 !important;
+}
+#headphonedesign{
+	display: flex;
+	justify-content: left;
+}
+.taingheotren,.taingheoduoi{
+	transform:translate(30px,-30px) rotate(15deg);
+}
+/*--------------- In-Ear Headphones -----------------------*/
+/*------------------ Banner 03 -------------*/
+/*------------------- True Wireless ------------------*/
+/*------------------just released ----------------------*/
+/*-------------------- Our Clients --------------*/
+.feedbackwidth{
+	flex: 0 0 100%;
+	max-width: 50%;
+}
+.owl-carousel-1{
+	
+	transform: translateX(-75%);
+	
+}
+
+.tieudeins h1{
+	margin-top: 70px;
+	margin-bottom: 90px;
+	text-align: left;
+	letter-spacing: 1.5px;
+}
+
+
+/*------------------Our Latest Instagram--------------*/
+.chiacot1{
+	display: flex;
+	align-items: flex-end;
+}
+
+#cumbenphai{
+	margin-bottom: 50px;
+}
+.hastagins{
+	position: absolute;
+	margin-top: 0px;
+	left: 327px;
+	padding: 0;
+}
+.hastagins p{
+	color: #b8b8b8;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.hastagins a{
+	text-decoration: none;
+	color: #fff;
+}
+.chiacot{
+	display: flex;
+	align-items: flex-end;
+}
+
+/*------------------- BLOG--------------------*/
+.contentttt a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+/*---------------- FOOTER --------------*/
+#subscribe p{
+	color: #fff;
+	font-family: headingne;
+	font-size: 20px;
+	text-align: center;
+}
+#socialmedia{
+	margin-bottom: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	display: flex;
+	padding: 5px 80px;
+	justify-content: space-between;
+}
+#socialmedia a{
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	border: 2px solid #fff;
+	height: 40px;
+	width: 40px;
+}
+#socialmedia a{
+	transition: all ease .3s;
+	
+}
+
+
+
+  /*===================sign in up=========================*/
+
+  .bgrsigninupmobie label, .signinn{
+	padding: 0px 60px;
+}
+
+
+
+
+
+
+
+
+
+
+.bgrsigninupmobie{
+background-color: #ffffff48;
+backdrop-filter: blur(10px);
+box-shadow: inset 0px 0px 15px 0px #000;
+border-radius: 15px;
+position: relative;
+overflow: hidden;
+}
+.content_signup{
+transform: translateY(100%);
+opacity: 0;
+}
+.bgrrrrrrmobie{
+position: absolute;
+}
+.changetosignup_1{
+animation: changetosignup_1 ease 1s forwards;
+}
+@keyframes changetosignup_1 {
+from{
+opacity: 0;
+transform: translateY(100%);
+}
+to{
+opacity: 1;
+transform: translateY(0%);
+}
+}
+
+.changetosignup_2{
+animation: changetosignup_2 ease 1s forwards;
+}
+@keyframes changetosignup_2 {
+from{
+opacity: 1;
+transform: translateY(0%);
+}
+to{
+opacity: 0;
+transform: translateY(-100%);
+}
+}
+.changetosignin_1{
+animation: changetosignin_1 ease 1s forwards ;
+}
+@keyframes changetosignin_1 {
+from{
+opacity: 0;
+transform: translateY(-100%);
+}
+to{
+opacity: 1;
+transform: translateY(0%);
+}
+}
+.changetosignin_2{
+animation: changetosignin_2 ease 1s forwards ;
+}
+@keyframes changetosignin_2 {
+from{
+opacity: 1;
+transform: translateY(0%);
+}
+to{
+opacity: 0;
+transform: translateY(100%);
+}
+}
+
+
+
+
+
+
+
+}
+
+/*==================================== Extra Small ==============================*/
+@media(max-width: 575px){
+
+
+
+.anhsomot{
+	padding-right: 30px;
+}
+
+.anhsohai{
+	padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	.modal-content{
+		display: flex;
+		left: -270px;
+		width: 1000px;
+		background-color: transparent;
+		transition: all ease .5s;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#background_inearheadphone{
+		margin-top: 740px;
+		margin-bottom: 50px;
+	}
+
+
+	.owl-carousel-1_blackpink{
+		overflow: hidden;
+		padding-top: 65px;
+		margin-bottom: 25px;
+		position: relative;
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+/*nut right left product*/
+
+.fa-chevron-left, .fa-chevron-right{
+	position: absolute;
+	font-size: 25px;
+	margin-top: -250px;
+	color: #fff;
+}
+.fa-chevron-left{
+   margin-left: -12%;
+}
+.fa-chevron-right{
+	margin-left: 98%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------Navi--------*/
+
+/*------------------Navi mobie--------*/
+@keyframes navimobilesearhciputanimationnnnnnnnnn{
+	from{
+		width: 0px;
+	opacity: 0;
+	}
+	to{
+		width: 330px;
+		opacity: 1;
+	}
+}
+
+/*----------------- BANNER 1--------*/
+/*----------------- BANNER 1--------*/
+#bgbannerdetam{
+	background-color: #00000045;
+	height: 600px;
+	padding-top: 60px;
+
+}
+.content_banner_001_blockhasitem{
+	width: 100%;
+	height: 350px;
+	margin-top: 200px;
+	position: relative;
+	display: flex;
+	z-index: -1;	
+}
+.content1item0101_01{
+	right: -270px;
+	bottom: -90px;
+	transform: scale(.4) translateX(-50%);
+}
+.content1item0101_02{
+	scale: calc(.7);
+	left: -200px;
+	transform: translateX(60%);
+}
+.content1item0101_03{
+	top: -50px;
+	scale: calc(.6);
+	left:50%;
+	transform: translate(-50%,-70%) scale(0.7);
+}
+
+.contentitem0202_img01{
+	opacity: 0;
+	bottom: 0;
+	left: 0px;
+	height: 300px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .1s;
+}
+.contentitem0202_img02{
+	opacity: 0;
+	right: 0px;
+	top: 90px;
+	height: 130px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .5s;
+}
+.contentitem0202_img04{
+	opacity: 0;	
+	right: -20px;
+	top: 170px;
+	height: 450px;
+	position: absolute;
+	animation-name: banner1item0202_imgbaylen;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: .2s;
+}
+.contentitem0202_imgblock{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	border-radius: 0px 0px 170px 170px;
+	bottom: 60px;
+}
+.contentitem0202_imgblock2{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	border-radius: 0px 0px 175px 175px;
+	bottom: 0px;
+}
+
+
+.content1item0202_tammang{
+	position: absolute;
+	width: 100%;
+	height: 0%;
+	bottom: 60px;
+	border-radius: 1000px;
+	
+}
+
+/*------------------ On-Ear Headphones --------*/
+
+.contentprducts ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 100px;
+}
+.addtocardxoxuong{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	top: 0;
+	right: 0;
+	height: 147px;
+	overflow: hidden;
+	width: 60px;
+	padding: 15px 0px;
+	border-radius: 0px 10px 0px 25px;
+	transition: all ease .7s;
+	opacity: 1;
+	background-color: #ffffff50;
+	backdrop-filter: blur(5px);
+	box-shadow: 0px 0px 5px 0px #02161a42;
+
+}
+
+.anhsanpham{
+	width: 309px;
+	height: 309px;
+	animation-duration: 1s !important;
+	margin-bottom: 20px;
+	transition: all ease .5s;
+	position: relative;
+}
+
+.chuatatca{
+	background: rgba(255, 255, 255, 0.25);
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 0px #0000005f;
+}
+
+
+.addtocardxoxuong a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 20px;
+	transition: all ease .5s;
+}
+
+
+
+
+
+/*----------------- BANNER 2--------*/
+
+.headphonetrang_content{
+
+}
+.taingheotren{
+	position: absolute;
+	top: -43px !important;
+	z-index: 6;
+	transition: 0.5s;
+}
+.taingheoduoiblock{
+	width: calc(100% - 30px);
+	margin-bottom: 50px;
+	height: 450px;
+	display: flex;
+	align-items: center;
+	transform: translate(-50px,125px);
+	z-index: 5;
+	border-radius:20px ;
+	position: absolute;
+	
+}
+.taingheoduoi{
+	position: absolute;
+	top: -43px !important;
+	z-index: -1 ;
+	transition: 0.5s;
+}
+
+.glassne99{
+	width: 100%;
+	margin-bottom: 50px;
+	margin-left: 20%;
+	height: 430px;
+	display: flex;
+	align-items: center;
+	transform: translate(-117px,125px);
+	z-index: 5;
+	border-radius:20px ;
+	position: relative;
+}
+
+
+
+.glassmagicmomoaoao{
+	transform: translate(0);
+	opacity: 1;
+}
+
+#magicheadphone h1{
+	
+	top:45%;
+}
+.custom-btnhaii{
+	opacity: 1;
+}
+.glassmagicbayletrenbautroicao{
+	animation: none;
+}
+.glassmagicbaylexuongbautroicao{
+	animation: none;
+}
+.headphonetrang_block{
+	transform:translate(55px,0px);
+}
+.headphonetrangmomoaoao{
+	transform:translateY(0);
+	opacity: 1;
+}
+.headphonetrang_content,.headphonetrangbtn_block{
+
+	opacity: 1 !important;
+}
+
+.taingheotren,.taingheoduoi{
+	transform:translate(30px,-30px) rotate(15deg);
+}
+/*--------------- In-Ear Headphones -----------------------*/
+/*------------------ Banner 03 -------------*/
+/*------------------- True Wireless ------------------*/
+/*------------------just released ----------------------*/
+/*-------------------- Our Clients --------------*/
+
+.owl-carousel-1{
+
+	transform: translateX(-150%);
+	
+}
+.feedbackwidth{
+	flex: 0 0 80%;
+	max-width: 80%;
+}
+.bentrai{
+	transform: translateX(0);
+}
+
+@keyframes gorighttt{
+	from{
+		transform: translateX(-150%);
+	}
+	to{
+		transform: translateX(-70%);
+	}
+}
+
+
+/*------------------Our Latest Instagram--------------*/
+.chiacot1{
+	display: flex;
+	align-items: flex-end;
+}
+
+#cumbenphai{
+	margin-bottom: 50px;
+}
+.hastagins{
+	font-size: 14px;
+	position: absolute;
+	left: 300px;
+	padding: 0;
+}
+.hastagins a{
+	text-decoration: none;
+	color: #fff;
+}
+.hastagins p{
+	color: #b8b8b8;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.chiacot{
+	display: flex;
+	align-items: flex-end;
+}
+.tieudeins h1{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	text-align: left;
+	letter-spacing: 1.5px;
+}
+
+
+
+/*------------------blog--------------*/
+.contentttt a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+/*---------------- FOOTER --------------*/
+#subscribe p{
+	color: #fff;
+	font-family: headingne;
+	font-size: 20px;
+	text-align: center;
+}
+#socialmedia{
+	margin-bottom: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	display: flex;
+	padding: 5px 50px;
+	justify-content: space-between;
+}
+#socialmedia a{
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	border: 2px solid #fff;
+	height: 40px;
+	width: 40px;
+}
+#socialmedia a{
+	transition: all ease .3s;
+	
+}
+
+
+
+
+
+     /*===================sign in up=========================*/
+
+	 .bgrsigninupmobie label, .signinn{
+        padding: 0px 20px;
+    }
+
+    
+.custom-btnhai{
+    left: 0%;
+}
+
+
+
+
+
+
+.bgrsigninupmobie{
+  background-color: #ffffff48;
+  backdrop-filter: blur(10px);
+  box-shadow: inset 0px 0px 15px 0px #000;
+  border-radius: 15px;
+  position: relative;
+
+  overflow: hidden;
+}
+.content_signup{
+    transform: translateY(100%);
+    opacity: 0;
+}
+.bgrrrrrrmobie{
+  position: absolute;
+}
+.changetosignup_1{
+  animation: changetosignup_1 ease 1s forwards;
+}
+@keyframes changetosignup_1 {
+  from{
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.changetosignup_2{
+  animation: changetosignup_2 ease 1s forwards;
+}
+@keyframes changetosignup_2 {
+  from{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  to{
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+.changetosignin_1{
+  animation: changetosignin_1 ease 1s forwards ;
+}
+@keyframes changetosignin_1 {
+  from{
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.changetosignin_2{
+  animation: changetosignin_2 ease 1s forwards ;
+}
+@keyframes changetosignin_2 {
+  from{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  to{
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+}
+.showproductmodal{
+	backdrop-filter:blur(15px);
+	overflow: auto;
+	position: fixed;
+	z-index: 10;
+	background-color: rgba(1, 1, 1, 0.393);
+	width: 100%;
+	height: 100%;
+	top:0;
+	display: none;
+	animation:showproductmodal 0.5s ease forwards ;
+}
+
+
+@keyframes showproductmodal{
+	from{opacity:0}to{opacity:1}
+}
+
+
+
+
+
+.productdetailmobile{
+	color: white;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) and (min-width:576px){
+	.feedbackwidth{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.owl-carousel-1{
+	
+		transform: translateX(-75%);
+		
+	}
+	.feedbacktransformright{
+		transform:translateX(35%) scale(.6); 
+	}
+	.feedbacktransformleft{
+		transform:translateX(-35%) scale(.6); 
+	}
+}
+
+
+
+
+
+
+
+#bgproductdetail, #bgproductdetailmini{
+	background-color: #ffffff41;
+	backdrop-filter: blur(15px);
+	border-radius: 10px;
+	margin-top: 80px;
+	
+}
+#starcontact ul,#starcontactnho ul, .saone ul{
+	list-style-type: none;
+}
+#starcontact ul, #starcontactnho ul{
+	margin-left: -45px;
+	margin-top: 20px;	
+	
+}
+#starcontact ul li,#starcontactnho ul li{
+	color: #FFC164;
+	text-decoration: none;
+	float: left;
+	font-size: 25px;
+	margin-right: 3px;
+
+}
+#starcontact{
+	margin-left: 30px;
+	margin-top: -10px;
+	
+}
+.imgchooseproductdeteal{
+	transition: all ease .5s;
+}
+.imgchooseproductdeteal:hover{
+	scale: calc(.9);
+	cursor: pointer;
+	transition: all ease .5s;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+	margin: 0px;
+}
+
+
+
+
+.custom-btnhai{
+	margin-top: 0px;
+}
+
+
+
+#background_onearheadphonecuarngan{
+	margin-bottom: 50px;
+}
+
+
+
+
+
+.productdetailthongtinmua h2{
+	text-align: left;
+	color: #FFFFFF;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+.productdetailthongtinmua p{
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+#tinhnangsp p, #tinhnangspnho p{
+	color: #FFFFFF;
+	font-size: 16px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+#tinhnangsp, #tinhnangspnho{
+	text-decoration: none;
+	margin-top: 10px;
+}
+#tinhnangsp ul, #tinhnangspnho ul{
+	list-style-type: none;
+}
+#tinhnangsp ul li, #tinhnangspnho ul li{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 15px;
+
+}
+
+#giaproductdetail, #giaproductdetailnho{
+	font-size: 45px;
+	font-family: mediumne;
+	margin: 0px;
+	color: white;
+}
+#giaproductdetail{
+	margin-left: 30px;
+}
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+#buttoncolorproductdetail{
+	margin-left: 30px;
+}
+#buttoncolorproductdetail p, #buttoncolorproductdetailnho p{
+	margin-left: 0px;
+}
+.colorCirclechoosedetails_block{
+	display: flex;
+}
+.colorCirclechoosedetail{
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+}
+.colorCirclechoosedetail_white,.colorCirclechoosedetail_whitemobile{
+	background-color: white;
+}
+.colorCirclechoosedetail_black,.colorCirclechoosedetail_blackmobile{
+	margin-left: 10px;
+	background-color: black;
+}
+.number-spinner {
+  max-width: 100px;
+  height: 30px;
+  line-height: 20px;
+  padding: 0;
+  margin: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  display: table;
+}
+.number-spinner input {
+  height: 30px;
+  max-height: 40px;
+  line-height: 20px;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  border: none;
+  position: relative;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.number-spinner input:focus {
+  outline: none;
+}
+.number-spinner .ns-btn {
+  position: relative;
+  font-size: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+  display: table-cell;
+  cursor: pointer;
+}
+.number-spinner input {
+	background: #2d6334;
+	color: #FFFFFF;
+}
+.number-spinner .ns-btn a {
+  height: 20px;
+  min-height: 30px;
+  width: 33px;
+  padding: 0;
+  max-width: 40px;
+  line-height: 40px;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+  position: relative;
+  background: #FFFFFF;
+  color: #333;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.number-spinner .ns-btn .icon-minus:after {
+  content: "−";
+  font-size: 16px;
+  line-height: 30px;
+  
+}
+.number-spinner .ns-btn .icon-plus:after {
+  content: "+";
+  font-size: 16px;
+  line-height: 30px;
+ 
+}
+#quanlityproductdetail{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#quanlityproductdetail p{
+	margin-left: 0px;
+}
+
+/* =============nut btn moi 01============*/
+
+.btn-13 {
+	color: #000;
+	 background-image: linear-gradient(315deg, #825637 15%, #FAE6D8 100%);
+	border: none;
+	z-index: 1;
+  }
+  .btn-13:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	border-radius: 50px;
+  background-image: -webkit-linear-gradient(bottom right, #5f3212 0%, #eac9b1 74%);
+  background-image: -o-linear-gradient(bottom right, #5f3212 0%, #eac9b1 74%);
+  background-image: linear-gradient(to top left, #5f3212 0%, #eac9b1 74%);
+	box-shadow:
+	 0px 0px 0px 0px rgba(255, 255, 255, 0.444),
+	 -4px -4px 5px 0px rgba(255, 255, 255, 0.141),
+	 7px 7px 20px 0px #0002,
+	 4px 4px 5px 0px #0001;
+	transition: all 0.3s ease;
+  }
+  .btn-13:hover {
+	color: #050101;
+  }
+  .btn-13:hover:after {
+	top: 0;
+	height: 100%;
+  }
+  .btn-13:active {
+	top: 2px;
+  }
+  
+  .custom-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 130px;
+	height: 40px;
+	color: #ffffff;
+	border-radius: 50px;
+	font-family: bodyne;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	 box-shadow:inset 2px 2px 2px 0px rgba(255, 255, 255, 0.064),
+	 7px 7px 20px 0px rgba(0, 0, 0, 0.036),
+	 4px 4px 5px 0px rgba(0, 0, 0, 0.045);
+	outline: none;
+	overflow: hidden;
+  }
+
+
+.buynowattocactmobie{
+	display: flex;
+
+}
+
+
+#nutmuahangdetail{
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.thumbnailimgdetail img{
+	margin-top: 15px;
+	margin-right: 9px;
+	width: 150px;
+}
+
+.productdetailimgs .row{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.productdetailimgbig img{
+	width: 653px;
+	margin-top: -120px;
+}
+
+.thumbnailimgdetail{
+	display: flex;
+	justify-content: center;
+
+}
+#quanlityproductdetailnho p{
+	color: white;
+	font-size: 16px;
+}
+.number-spinner:nth-child(2){
+	margin-bottom: 20px;
+}

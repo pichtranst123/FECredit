@@ -1,0 +1,138 @@
+[
+  
+  {
+    "id": 1,
+    "title": "Annuals",
+    "content": "Annuals are plants that complete their life cycle in one year. They are typically colorful and easy to grow, making them a popular choice for flower gardens. Some popular annuals include petunias, marigolds, sunflowers, and impatiens.",
+    "type": "Outdoor",
+    "img": "Annuals.png",
+    "price": 9,
+    "detail": "Annuals"
+  },
+  {
+    "id": 2,
+    "title": "Perennials",
+    "content": "Perennials are plants that live for more than two years. They typically require less maintenance than annuals, and they can add structure and color to your garden for many years to come. Some popular perennials include hostas, daylilies, roses, and lavender.",
+    "type": "Outdoor",
+    "img": "Perennials.png",
+    "price": 16,
+    "detail": "Perennials"
+  },
+  {
+    "id": 3,
+    "title": "Herbs",
+    "content": "Herbs can be used for cooking, medicinal purposes, or simply for their beauty. Some popular herbs for outdoor planting include basil, rosemary, and thyme.",
+    "type": "Outdoor",
+    "img": "Herbs.png",
+    "price": 20,
+    "detail": "Herbs"
+  },
+  {
+    "id": 14,
+    "title": "Spider plant",
+    "content": "Spider plant or Chlorophytum comosum is another low-maintenance plant that is known for its air-purifying qualities. It produces long, trailing stems with small, sword-shaped leaves.",
+    "type": "Outdoor",
+    "img": "spider.png",
+    "price": 50,
+    "detail": "Herbs"
+  },
+  {
+    "id": 4,
+    "title": "Ornamental grasses",
+    "content": "Ornamental grasses are grasses that are grown for their beauty. They can add movement and texture to your outdoor space. Some popular ornamental grasses for outdoor planting include fountain grass, maiden grass, and zebra grass.",
+    "type": "Outdoor",
+    "img": "Ornamental grasses.png",
+    "price": 15,
+    "detail": "Ornamental grasses"
+  },
+  {
+    "id": 5,
+    "title": "Pothos",
+    "content": "Pothos or Epipremnum Aureum is another easy-care hanging plant that is tolerant of low light and infrequent watering. Pothos comes in many varieties, with different leaf shapes and colors.",
+    "type": "Hanging",
+    "img": "pothos.png",
+    "price": 50,
+    "detail": "Pothos"
+  },
+  {
+    "id": 6,
+    "title": "String of Heart",
+    "content": "String of Heart or Ceropegia Woodii is another popular hanging plant with heart-shaped leaves. String of hearts is a bit more delicate than some other hanging plants, but it is still relatively easy to care for.",
+    "type": "Hanging",
+    "img": "Ceropegia woodii.png",
+    "price": 15,
+    "detail": "String of Heart"
+  },
+  {
+    "id": 7,
+    "title": "Purple Shamrock",
+    "content": "Purple Shamrock or Oxalis Triangularis is a colorful hanging plant with clover-like leaves that change color from green to purple throughout the day. Oxalis triangularis is a bit more difficult to care for than some other hanging plants, but it is well worth the effort.",
+    "type": "Hanging",
+    "img": "Oxalis triangularis.png",
+    "price": 25,
+    "detail": "Purple Shamrock"
+  },
+  {
+    "id": 14,
+    "title": "Spider plant",
+    "content": "Spider plant or Chlorophytum comosum is another low-maintenance plant that is known for its air-purifying qualities. It produces long, trailing stems with small, sword-shaped leaves.",
+    "type": "Hanging",
+    "img": "spider.png",
+    "price": 50,
+    "detail": "Spider"
+  },
+  {
+    "id": 9,
+    "title": "Kokedama",
+    "content": "Kokedama or moss ball in English is a Japanese art form of growing plants in a ball of soil moss. Kokedama plants are typically small and can be hung or displayed on a table.",
+    "type": "Hanging",
+    "img": "kokedama.png",
+    "price": 40,
+    "detail": "Kokedama"
+  },
+  {
+    "id": 10,
+    "title": "Aloe Vera",
+    "content": "Aloe vera is a succulent plant that is native to Africa. It has thick, fleshy leaves that contain a gel that is used for medicinal and cosmetic purposes. Aloe vera gel is known for its moisturizing, soothing, and anti-inflammatory properties. It can be used to treat a variety of skin conditions, including burns, cuts, eczema, and psoriasis. Its gel can also be used to promote hair growth and to soothe a sunburn.",
+    "type": "Indoor",
+    "img": "aloe Vera.png",
+    "price": 10,
+    "detail": "Aloe vera"
+  },
+  {
+    "id": 11,
+    "title": "Cacti",
+    "content": "Cacti are a diverse group of plants that are native to the Americas. They are characterized by their thick, fleshy stems that store water, which allows them to survive in dry climates. Cacti come in a wide variety of shapes and sizes, from the tiny barrel cactus to the towering saguaro cactus.",
+    "type": "Indoor",
+    "img": "Cacti.png",
+    "price": 20,
+    "detail": "Cacti"
+  },
+  {
+    "id": 12,
+    "title": "Lithops",
+    "content": "Lithops are a genus of succulent plants that are native to South Africa. They are also known as living stones because their shape and coloring resembles that of stones. Lithops are small plants, typically only 1-2 inches in diameter. They have two pairs of fleshy leaves that are fused together, and they store water in these leaves. Lithops only need to be watered very infrequently, and they can tolerate hot, dry conditions.",
+    "type": "Indoor",
+    "img": "Lithops.png",
+    "price": 30,
+    "detail": "Lithops"
+  },
+  {
+    "id": 13,
+    "title": "Echeveria",
+    "content": "Echeveria is a genus of succulent plants that are native to Mexico and Central America. They are known for their colorful rosettes of leaves, which can be green, pink, purple, or yellow. Echeverias are relatively easy to care for and make popular houseplants.",
+    "type": "Indoor",
+    "img": "Echeveria.png",
+    "price": 30,
+    "detail": "Echeveria"
+  },
+  {
+    "id": 14,
+    "title": "Jade plant",
+    "content": "Jade plant or Crassula Ovata, also known as friendship tree, lucky plant, or money plant, is a succulent plant with thick branches and smooth, rounded, fleshy leaves that grow in opposing pairs along the branches. Leaves are a rich jade green; some varieties may develop a red tinge on the edges of leaves when exposed to high levels of sunlight.",
+    "type": "Indoor",
+    "img": "Jade plant.png",
+    "price": 25,
+    "detail": "Jade plant"
+  }
+]
